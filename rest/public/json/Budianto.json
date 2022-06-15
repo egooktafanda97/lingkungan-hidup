@@ -1,0 +1,4982 @@
+[
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "1",
+    "nama_pemilik": "RIDA WATI",
+    "nama_usaha": "RIDA WATI",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN AMBISI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "2",
+    "nama_pemilik": "MILA",
+    "nama_usaha": "MILA",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN AMBISI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "3",
+    "nama_pemilik": "HENDRA",
+    "nama_usaha": "HENDRA",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN AMBISI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "4",
+    "nama_pemilik": "MAMUT",
+    "nama_usaha": "MAMUT",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN AMBISI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "5",
+    "nama_pemilik": "YAYAH",
+    "nama_usaha": "YAYAH",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN AMBISI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "6",
+    "nama_pemilik": "DAMEN",
+    "nama_usaha": "DAMEN",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN AMBISI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "7",
+    "nama_pemilik": "WENI",
+    "nama_usaha": "WENI",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN AMBISI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "8",
+    "nama_pemilik": "SYARIF",
+    "nama_usaha": "SYARIF",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN AMBISI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "9",
+    "nama_pemilik": "WAJINO",
+    "nama_usaha": "WAJINO",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN AMBISI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "10",
+    "nama_pemilik": "JARWAK",
+    "nama_usaha": "JARWAK",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN AMBISI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "11",
+    "nama_pemilik": "KEPIN",
+    "nama_usaha": "KEPIN",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN AMBISI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "12",
+    "nama_pemilik": "ANA",
+    "nama_usaha": "ANA",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN AMBISI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "13",
+    "nama_pemilik": "SANAMON",
+    "nama_usaha": "SANAMON",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN AMBISI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "14",
+    "nama_pemilik": "PEDSUS",
+    "nama_usaha": "PEDSUS",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN AMBISI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "15",
+    "nama_pemilik": "LABAY",
+    "nama_usaha": "LABAY",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN AMBISI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "16",
+    "nama_pemilik": "IRWAN",
+    "nama_usaha": "IRWAN",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN AMBISI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "17",
+    "nama_pemilik": "REJA",
+    "nama_usaha": "REJA",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN AMBISI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "18",
+    "nama_pemilik": "AZIBUAN",
+    "nama_usaha": "AZIBUAN",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN AMBISI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "19",
+    "nama_pemilik": "PENJEL",
+    "nama_usaha": "PENJEL",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN AMBISI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "20",
+    "nama_pemilik": "JULES LASE",
+    "nama_usaha": "JULES LASE",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN AMBISI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "21",
+    "nama_pemilik": "UBAN",
+    "nama_usaha": "UBAN",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN AMBISI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "22",
+    "nama_pemilik": "AYU",
+    "nama_usaha": "AYU",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN AMBISI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "23",
+    "nama_pemilik": "RISTI",
+    "nama_usaha": "RISTI",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN AMBISI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "24",
+    "nama_pemilik": "EMAL",
+    "nama_usaha": "EMAL",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN AMBISI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "25",
+    "nama_pemilik": "PAINI",
+    "nama_usaha": "PAINI",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN AMBISI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "26",
+    "nama_pemilik": "KAMARUN",
+    "nama_usaha": "KAMARUN",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN AMBISI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "27",
+    "nama_pemilik": "EDI",
+    "nama_usaha": "EDI",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN AMBISI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "28",
+    "nama_pemilik": "EPI",
+    "nama_usaha": "EPI",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN AMBISI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "29",
+    "nama_pemilik": "AGUS SALIM",
+    "nama_usaha": "AGUS SALIM",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN AMBISI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "30",
+    "nama_pemilik": "JANUAR",
+    "nama_usaha": "JANUAR",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN AMBISI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "31",
+    "nama_pemilik": "YANTI",
+    "nama_usaha": "YANTI",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN AMBISI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "32",
+    "nama_pemilik": "MAYA",
+    "nama_usaha": "MAYA",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN AMBISI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "33",
+    "nama_pemilik": "WINDI",
+    "nama_usaha": "WINDI",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN AMBISI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "34",
+    "nama_pemilik": "ADI",
+    "nama_usaha": "ADI",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN AMBISI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "35",
+    "nama_pemilik": "IRMA",
+    "nama_usaha": "IRMA",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN AMBISI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "36",
+    "nama_pemilik": "PIJAY",
+    "nama_usaha": "PIJAY",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN AMBISI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "37",
+    "nama_pemilik": "RONI",
+    "nama_usaha": "RONI",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN AMBISI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "38",
+    "nama_pemilik": "SIGIT",
+    "nama_usaha": "SIGIT",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN AMBISI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "39",
+    "nama_pemilik": "ADI YANTO",
+    "nama_usaha": "ADI YANTO",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN AMBISI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "40",
+    "nama_pemilik": "SUPRIADI",
+    "nama_usaha": "SUPRIADI",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN AMBISI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "41",
+    "nama_pemilik": "ALIS",
+    "nama_usaha": "ALIS",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN AMBISI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "42",
+    "nama_pemilik": "M.ISYA",
+    "nama_usaha": "M.ISYA",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN AMBISI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "43",
+    "nama_pemilik": "JOKO.P",
+    "nama_usaha": "JOKO.P",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN AMBISI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "44",
+    "nama_pemilik": "LEO DALMAT",
+    "nama_usaha": "LEO DALMAT",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN AMBISI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "45",
+    "nama_pemilik": "TUMERAN",
+    "nama_usaha": "TUMERAN",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN AMBISI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "46",
+    "nama_pemilik": "ISRAWATI",
+    "nama_usaha": "ISRAWATI",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN AMBISI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "47",
+    "nama_pemilik": "RODIAH",
+    "nama_usaha": "RODIAH",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN AMBISI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "48",
+    "nama_pemilik": "UCOK",
+    "nama_usaha": "UCOK",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN AMBISI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "49",
+    "nama_pemilik": "DERI",
+    "nama_usaha": "DERI",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN AMBISI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "50",
+    "nama_pemilik": "SARIL",
+    "nama_usaha": "SARIL",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN AMBISI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "51",
+    "nama_pemilik": "NURLELA",
+    "nama_usaha": "NURLELA",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN AMBISI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "52",
+    "nama_pemilik": "NUR LIA",
+    "nama_usaha": "NUR LIA",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN AMBISI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "53",
+    "nama_pemilik": "WIKE",
+    "nama_usaha": "WIKE",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN AMBISI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "54",
+    "nama_pemilik": "SITI",
+    "nama_usaha": "SITI",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN AMBISI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "55",
+    "nama_pemilik": "EPPI SIMANJUNTAK",
+    "nama_usaha": "EPPI SIMANJUNTAK",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN AMBISI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "56",
+    "nama_pemilik": "SINAGA",
+    "nama_usaha": "SINAGA",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN AMBISI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "57",
+    "nama_pemilik": "MIATI MUSI",
+    "nama_usaha": "MIATI MUSI",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN AMBISI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "58",
+    "nama_pemilik": "KRINA",
+    "nama_usaha": "KRINA",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN AMBISI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "59",
+    "nama_pemilik": "CAHAYA",
+    "nama_usaha": "CAHAYA",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN AMBISI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "60",
+    "nama_pemilik": "REKTOR",
+    "nama_usaha": "REKTOR",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN AMBISI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "61",
+    "nama_pemilik": "NISMAR",
+    "nama_usaha": "NISMAR",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN AMBISI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "62",
+    "nama_pemilik": "USMALINI",
+    "nama_usaha": "USMALINI",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN AMBISI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "63",
+    "nama_pemilik": "RATNA",
+    "nama_usaha": "RATNA",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN AMBISI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "64",
+    "nama_pemilik": "MUSLIM",
+    "nama_usaha": "MUSLIM",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN AMBISI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "65",
+    "nama_pemilik": "PIKA",
+    "nama_usaha": "PIKA",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN AMBISI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "66",
+    "nama_pemilik": "PIYA",
+    "nama_usaha": "PIYA",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN AMBISI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "67",
+    "nama_pemilik": "WAHYU",
+    "nama_usaha": "WAHYU",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN AMBISI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "68",
+    "nama_pemilik": "AJIZAR",
+    "nama_usaha": "AJIZAR",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN AMBISI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "69",
+    "nama_pemilik": "NUR",
+    "nama_usaha": "NUR",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN AMBISI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "70",
+    "nama_pemilik": "RISKI",
+    "nama_usaha": "RISKI",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN AMBISI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "71",
+    "nama_pemilik": "WIWIK",
+    "nama_usaha": "WIWIK",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN AMBISI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "72",
+    "nama_pemilik": "MAYA",
+    "nama_usaha": "MAYA",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN AMBISI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "73",
+    "nama_pemilik": "NISLA",
+    "nama_usaha": "NISLA",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN AMBISI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "74",
+    "nama_pemilik": "ALDI",
+    "nama_usaha": "ALDI",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN AMBISI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "75",
+    "nama_pemilik": "DIAN",
+    "nama_usaha": "DIAN",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN AMBISI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "76",
+    "nama_pemilik": "RISMA",
+    "nama_usaha": "RISMA",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN AMBISI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "77",
+    "nama_pemilik": "TOPIK",
+    "nama_usaha": "TOPIK",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN AMBISI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "78",
+    "nama_pemilik": "MAMBALI",
+    "nama_usaha": "MAMBALI",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN AMBISI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "79",
+    "nama_pemilik": "NURYATI",
+    "nama_usaha": "NURYATI",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN AMBISI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "80",
+    "nama_pemilik": "LIA",
+    "nama_usaha": "LIA",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN AMBISI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "81",
+    "nama_pemilik": "DEDI",
+    "nama_usaha": "DEDI",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN AMBISI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "82",
+    "nama_pemilik": "EDI.S",
+    "nama_usaha": "EDI.S",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN AMBISI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "83",
+    "nama_pemilik": "BAHAR",
+    "nama_usaha": "BAHAR",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN AMBISI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "84",
+    "nama_pemilik": "SRI WAHYUNI",
+    "nama_usaha": "SRI WAHYUNI",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN AMBISI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "85",
+    "nama_pemilik": "YUSTIAR",
+    "nama_usaha": "YUSTIAR",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN AMBISI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "86",
+    "nama_pemilik": "RANDI S",
+    "nama_usaha": "RANDI S",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN AMBISI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "87",
+    "nama_pemilik": "SINAGA",
+    "nama_usaha": "SINAGA",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN AMBISI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "88",
+    "nama_pemilik": "SARNO",
+    "nama_usaha": "SARNO",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN AMBISI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "89",
+    "nama_pemilik": "PAK MIN",
+    "nama_usaha": "PAK MIN",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN AMBISI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "90",
+    "nama_pemilik": "TINA",
+    "nama_usaha": "TINA",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN AMBISI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "91",
+    "nama_pemilik": "MARBUN LAIA",
+    "nama_usaha": "MARBUN LAIA",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN AMBISI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "92",
+    "nama_pemilik": "MARBUN",
+    "nama_usaha": "MARBUN",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN AMBISI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "93",
+    "nama_pemilik": "HAMDANI",
+    "nama_usaha": "HAMDANI",
+    "id_jenis_usaha": "1",
+    "alamat": "JL.ASEAN UJUNG",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "94",
+    "nama_pemilik": "SYARIAL",
+    "nama_usaha": "SYARIAL",
+    "id_jenis_usaha": "1",
+    "alamat": "JL.ASEAN UJUNG",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "95",
+    "nama_pemilik": "USMANISA",
+    "nama_usaha": "USMANISA",
+    "id_jenis_usaha": "1",
+    "alamat": "JL.ASEAN UJUNG",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "96",
+    "nama_pemilik": "DIAN",
+    "nama_usaha": "DIAN",
+    "id_jenis_usaha": "1",
+    "alamat": "JL.ASEAN UJUNG",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "97",
+    "nama_pemilik": "JARIDIS",
+    "nama_usaha": "JARIDIS",
+    "id_jenis_usaha": "1",
+    "alamat": "JL.ASEAN UJUNG",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "98",
+    "nama_pemilik": "P.SARIMAN",
+    "nama_usaha": "P.SARIMAN",
+    "id_jenis_usaha": "1",
+    "alamat": "JL.ASEAN UJUNG",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "99",
+    "nama_pemilik": "JUMIDIN",
+    "nama_usaha": "JUMIDIN",
+    "id_jenis_usaha": "1",
+    "alamat": "JL.ASEAN UJUNG",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "100",
+    "nama_pemilik": "BUDI SUSILO",
+    "nama_usaha": "BUDI SUSILO",
+    "id_jenis_usaha": "1",
+    "alamat": "JL.ASEAN UJUNG",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "101",
+    "nama_pemilik": "LEO SAMOSIR",
+    "nama_usaha": "LEO SAMOSIR",
+    "id_jenis_usaha": "1",
+    "alamat": "JL.ASEAN UJUNG",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "102",
+    "nama_pemilik": "SAMINGIN",
+    "nama_usaha": "SAMINGIN",
+    "id_jenis_usaha": "1",
+    "alamat": "JL.ASEAN UJUNG",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "103",
+    "nama_pemilik": "UCOK",
+    "nama_usaha": "UCOK",
+    "id_jenis_usaha": "1",
+    "alamat": "JL.ASEAN UJUNG",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "104",
+    "nama_pemilik": "HENDRIK",
+    "nama_usaha": "HENDRIK",
+    "id_jenis_usaha": "1",
+    "alamat": "JL.ASEAN UJUNG",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "105",
+    "nama_pemilik": "JONO",
+    "nama_usaha": "JONO",
+    "id_jenis_usaha": "1",
+    "alamat": "JL.ASEAN UJUNG",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "106",
+    "nama_pemilik": "SUPARMAN",
+    "nama_usaha": "SUPARMAN",
+    "id_jenis_usaha": "1",
+    "alamat": "JL.ASEAN UJUNG",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "107",
+    "nama_pemilik": "HAMBALI",
+    "nama_usaha": "HAMBALI",
+    "id_jenis_usaha": "1",
+    "alamat": "JL.ASEAN UJUNG",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "108",
+    "nama_pemilik": "M.HARIS",
+    "nama_usaha": "M.HARIS",
+    "id_jenis_usaha": "1",
+    "alamat": "JL.ASEAN UJUNG",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "109",
+    "nama_pemilik": "BU.DEWI",
+    "nama_usaha": "BU.DEWI",
+    "id_jenis_usaha": "1",
+    "alamat": "JL.ASEAN UJUNG",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "110",
+    "nama_pemilik": "PAK MUNAJI",
+    "nama_usaha": "PAK MUNAJI",
+    "id_jenis_usaha": "1",
+    "alamat": "JL.ASEAN UJUNG",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "111",
+    "nama_pemilik": "EMON",
+    "nama_usaha": "EMON",
+    "id_jenis_usaha": "1",
+    "alamat": "JL.ASEAN UJUNG",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "112",
+    "nama_pemilik": "BUDI",
+    "nama_usaha": "BUDI",
+    "id_jenis_usaha": "1",
+    "alamat": "JL.ASEAN UJUNG",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "113",
+    "nama_pemilik": "ZUNAEDI",
+    "nama_usaha": "ZUNAEDI",
+    "id_jenis_usaha": "1",
+    "alamat": "JL.ASEAN UJUNG",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "114",
+    "nama_pemilik": "ZUMAHIR",
+    "nama_usaha": "ZUMAHIR",
+    "id_jenis_usaha": "1",
+    "alamat": "JL.ASEAN UJUNG",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "115",
+    "nama_pemilik": "LENI JUMAIDA",
+    "nama_usaha": "LENI JUMAIDA",
+    "id_jenis_usaha": "1",
+    "alamat": "JL.ASEAN UJUNG",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "116",
+    "nama_pemilik": "AL PIZA",
+    "nama_usaha": "AL PIZA",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN AMBISI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "117",
+    "nama_pemilik": "RAHAGIAN PRAMAN",
+    "nama_usaha": "RAHAGIAN PRAMAN",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN AMBISI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "118",
+    "nama_pemilik": "BU ENI",
+    "nama_usaha": "BU ENI",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN AMBISI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "119",
+    "nama_pemilik": "QUIN",
+    "nama_usaha": "QUIN",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN AMBISI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "120",
+    "nama_pemilik": "DENI",
+    "nama_usaha": "DENI",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN AMBISI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "121",
+    "nama_pemilik": "LIZA",
+    "nama_usaha": "LIZA",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN AMBISI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "122",
+    "nama_pemilik": "YANI",
+    "nama_usaha": "YANI",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN AMBISI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "123",
+    "nama_pemilik": "INA",
+    "nama_usaha": "INA",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN AMBISI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "124",
+    "nama_pemilik": "EVI YANI",
+    "nama_usaha": "EVI YANI",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN AMBISI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "125",
+    "nama_pemilik": "DESI",
+    "nama_usaha": "DESI",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN AMBISI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "126",
+    "nama_pemilik": "J.M RUYANEDI",
+    "nama_usaha": "J.M RUYANEDI",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN AMBISI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "127",
+    "nama_pemilik": "RASMIA",
+    "nama_usaha": "RASMIA",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN AMBISI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "128",
+    "nama_pemilik": "WANDI",
+    "nama_usaha": "WANDI",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN AMBISI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "129",
+    "nama_pemilik": "SYAHRIAL",
+    "nama_usaha": "SYAHRIAL",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN AMBISI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "130",
+    "nama_pemilik": "NELY",
+    "nama_usaha": "NELY",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN AMBISI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "131",
+    "nama_pemilik": "WIRDA",
+    "nama_usaha": "WIRDA",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN AMBISI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "132",
+    "nama_pemilik": "NUR APID",
+    "nama_usaha": "NUR APID",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN AMBISI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "133",
+    "nama_pemilik": "MAK PARIN",
+    "nama_usaha": "MAK PARIN",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN AMBISI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "134",
+    "nama_pemilik": "SUPINI",
+    "nama_usaha": "SUPINI",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN AMBISI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "135",
+    "nama_pemilik": "AROSAKI",
+    "nama_usaha": "AROSAKI",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN AMBISI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "136",
+    "nama_pemilik": "TRIYONO",
+    "nama_usaha": "TRIYONO",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN AMBISI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "137",
+    "nama_pemilik": "DINA",
+    "nama_usaha": "DINA",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN AMBISI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "138",
+    "nama_pemilik": "IRA",
+    "nama_usaha": "IRA",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN AMBISI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "139",
+    "nama_pemilik": "ABD.HAMID",
+    "nama_usaha": "ABD.HAMID",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN AMBISI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "140",
+    "nama_pemilik": "YUSNI",
+    "nama_usaha": "YUSNI",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN AMBISI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "141",
+    "nama_pemilik": "WIRA",
+    "nama_usaha": "WIRA",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN AMBISI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "142",
+    "nama_pemilik": "PURNOMO",
+    "nama_usaha": "PURNOMO",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN AMBISI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "143",
+    "nama_pemilik": "PEBRI",
+    "nama_usaha": "PEBRI",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN AMBISI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "144",
+    "nama_pemilik": "SURYANTO",
+    "nama_usaha": "SURYANTO",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN AMBISI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "145",
+    "nama_pemilik": "LIGIRIN",
+    "nama_usaha": "LIGIRIN",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN AMBISI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "146",
+    "nama_pemilik": "PAK UJANG",
+    "nama_usaha": "PAK UJANG",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN AMBISI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "147",
+    "nama_pemilik": "MAK BUNGA",
+    "nama_usaha": "MAK BUNGA",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN AMBISI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "148",
+    "nama_pemilik": "MAK PUTRI",
+    "nama_usaha": "MAK PUTRI",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN AMBISI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "149",
+    "nama_pemilik": "TRI WIYANI",
+    "nama_usaha": "TRI WIYANI",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN AMBISI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "150",
+    "nama_pemilik": "RAMADANI",
+    "nama_usaha": "RAMADANI",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN AMBISI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "151",
+    "nama_pemilik": "WAWAN BAKSO",
+    "nama_usaha": "WAWAN BAKSO",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN AMBISI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "152",
+    "nama_pemilik": "SUTRIS ",
+    "nama_usaha": "SUTRIS ",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN AMBISI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "153",
+    "nama_pemilik": "EDI SUPRAPTO",
+    "nama_usaha": "EDI SUPRAPTO",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN AMBISI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "154",
+    "nama_pemilik": "P.SIRAIT",
+    "nama_usaha": "P.SIRAIT",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN AMBISI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "155",
+    "nama_pemilik": "BU MARIANA",
+    "nama_usaha": "BU MARIANA",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN AMBISI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "156",
+    "nama_pemilik": "AEP",
+    "nama_usaha": "AEP",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN AMBISI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "157",
+    "nama_pemilik": "SARIPUDIN",
+    "nama_usaha": "SARIPUDIN",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN AMBISI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "158",
+    "nama_pemilik": "ELY",
+    "nama_usaha": "ELY",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN AMBISI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "159",
+    "nama_pemilik": "RISMAWATI",
+    "nama_usaha": "RISMAWATI",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN AMBISI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "161",
+    "nama_pemilik": "RIDWAN",
+    "nama_usaha": "RIDWAN",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN PAK UTEH",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "162",
+    "nama_pemilik": "ABU THOLIB",
+    "nama_usaha": "ABU THOLIB",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN PAK UTEH",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "163",
+    "nama_pemilik": "KAK IYA",
+    "nama_usaha": "KAK IYA",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN PAK UTEH",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "164",
+    "nama_pemilik": "SYAFRIJAL",
+    "nama_usaha": "SYAFRIJAL",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN PAK UTEH",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "165",
+    "nama_pemilik": "ABU BAKAR",
+    "nama_usaha": "ABU BAKAR",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN PAK UTEH",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "166",
+    "nama_pemilik": "PAK UWO",
+    "nama_usaha": "PAK UWO",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN PAK UTEH",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "167",
+    "nama_pemilik": "WATI",
+    "nama_usaha": "WATI",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN PAK UTEH",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "168",
+    "nama_pemilik": "RUSMAN",
+    "nama_usaha": "RUSMAN",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN PAK UTEH",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "169",
+    "nama_pemilik": "WANDI KURNIAWAN",
+    "nama_usaha": "WANDI KURNIAWAN",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN PAK UTEH",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "170",
+    "nama_pemilik": "BUK NADIA",
+    "nama_usaha": "BUK NADIA",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN PAK UTEH",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "171",
+    "nama_pemilik": "HERI",
+    "nama_usaha": "HERI",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN PAK UTEH",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "172",
+    "nama_pemilik": "ULFAH",
+    "nama_usaha": "ULFAH",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN PAK UTEH",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "173",
+    "nama_pemilik": "SAMSUL KAMAL",
+    "nama_usaha": "SAMSUL KAMAL",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN PAK UTEH",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "174",
+    "nama_pemilik": "MUKLIS",
+    "nama_usaha": "MUKLIS",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN PAK UTEH",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "175",
+    "nama_pemilik": "YULI",
+    "nama_usaha": "YULI",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN PAK UTEH",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "176",
+    "nama_pemilik": "M.YUNUS",
+    "nama_usaha": "M.YUNUS",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN PAK UTEH",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "177",
+    "nama_pemilik": "RUSMADI",
+    "nama_usaha": "RUSMADI",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN PAK UTEH",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "178",
+    "nama_pemilik": "KAK ICUT",
+    "nama_usaha": "KAK ICUT",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN PAK UTEH",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "179",
+    "nama_pemilik": "MAK TASYA",
+    "nama_usaha": "MAK TASYA",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN PAK UTEH",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "180",
+    "nama_pemilik": "PITRI",
+    "nama_usaha": "PITRI",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN PAK UTEH",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "181",
+    "nama_pemilik": "BUK ROS",
+    "nama_usaha": "BUK ROS",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN PAK UTEH",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "182",
+    "nama_pemilik": "HASIBUAN",
+    "nama_usaha": "HASIBUAN",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN PAK UTEH",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "183",
+    "nama_pemilik": "KHOIRUL KALAM",
+    "nama_usaha": "KHOIRUL KALAM",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN PAK UTEH",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "184",
+    "nama_pemilik": "BU DESTA",
+    "nama_usaha": "BU DESTA",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN PAK UTEH",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "185",
+    "nama_pemilik": "HERLINA",
+    "nama_usaha": "HERLINA",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN PAK UTEH",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "186",
+    "nama_pemilik": "MEY YULIANTI",
+    "nama_usaha": "MEY YULIANTI",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN PAK UTEH",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "187",
+    "nama_pemilik": "BU YAYU",
+    "nama_usaha": "BU YAYU",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN PAK UTEH",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "188",
+    "nama_pemilik": "PAK EDI",
+    "nama_usaha": "PAK EDI",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN PAK UTEH",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "189",
+    "nama_pemilik": "IBROHIM",
+    "nama_usaha": "IBROHIM",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN PAK UTEH",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "190",
+    "nama_pemilik": "LESTI",
+    "nama_usaha": "LESTI",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN PAK UTEH",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "191",
+    "nama_pemilik": "ISKANDAR",
+    "nama_usaha": "ISKANDAR",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN PAK UTEH",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "192",
+    "nama_pemilik": "ARI HANDI",
+    "nama_usaha": "ARI HANDI",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN PAK UTEH",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "193",
+    "nama_pemilik": "OVI YANDO",
+    "nama_usaha": "OVI YANDO",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN PAK UTEH",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "194",
+    "nama_pemilik": "AYUP",
+    "nama_usaha": "AYUP",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN PAK UTEH",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "195",
+    "nama_pemilik": "EVA",
+    "nama_usaha": "EVA",
+    "id_jenis_usaha": "1",
+    "alamat": "JL.ASY SUKRON",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "196",
+    "nama_pemilik": "BAMBANG",
+    "nama_usaha": "BAMBANG",
+    "id_jenis_usaha": "1",
+    "alamat": "JL.ASY SUKRON",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "197",
+    "nama_pemilik": "IWAN",
+    "nama_usaha": "IWAN",
+    "id_jenis_usaha": "1",
+    "alamat": "JL.ASY SUKRON",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "198",
+    "nama_pemilik": "SYAHRIZAL",
+    "nama_usaha": "SYAHRIZAL",
+    "id_jenis_usaha": "1",
+    "alamat": "JL.ASY SUKRON",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "199",
+    "nama_pemilik": "BU ELA",
+    "nama_usaha": "BU ELA",
+    "id_jenis_usaha": "1",
+    "alamat": "JL.ASY SUKRON",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "200",
+    "nama_pemilik": "OBY",
+    "nama_usaha": "OBY",
+    "id_jenis_usaha": "1",
+    "alamat": "JL.ASY SUKRON",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "201",
+    "nama_pemilik": "NASIB",
+    "nama_usaha": "NASIB",
+    "id_jenis_usaha": "1",
+    "alamat": "GANG NILA",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "202",
+    "nama_pemilik": "TAUPIK",
+    "nama_usaha": "TAUPIK",
+    "id_jenis_usaha": "1",
+    "alamat": "GANG NILA",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "203",
+    "nama_pemilik": "GUNTORO",
+    "nama_usaha": "GUNTORO",
+    "id_jenis_usaha": "1",
+    "alamat": "GANG NILA",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "204",
+    "nama_pemilik": "DINA",
+    "nama_usaha": "DINA",
+    "id_jenis_usaha": "1",
+    "alamat": "GANG NILA",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "205",
+    "nama_pemilik": "MAKAYA",
+    "nama_usaha": "MAKAYA",
+    "id_jenis_usaha": "1",
+    "alamat": "GANG NILA",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "206",
+    "nama_pemilik": "PANDIANGAN",
+    "nama_usaha": "PANDIANGAN",
+    "id_jenis_usaha": "1",
+    "alamat": "GANG NILA",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "207",
+    "nama_pemilik": "YULI",
+    "nama_usaha": "YULI",
+    "id_jenis_usaha": "1",
+    "alamat": "GANG NILA",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "208",
+    "nama_pemilik": "DAVID",
+    "nama_usaha": "DAVID",
+    "id_jenis_usaha": "1",
+    "alamat": "GANG NILA",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "209",
+    "nama_pemilik": "DINA",
+    "nama_usaha": "DINA",
+    "id_jenis_usaha": "1",
+    "alamat": "GANG NILA",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "210",
+    "nama_pemilik": "DEWI",
+    "nama_usaha": "DEWI",
+    "id_jenis_usaha": "1",
+    "alamat": "GANG NILA",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "211",
+    "nama_pemilik": "SRI",
+    "nama_usaha": "SRI",
+    "id_jenis_usaha": "1",
+    "alamat": "GANG NILA",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "212",
+    "nama_pemilik": "RONI",
+    "nama_usaha": "RONI",
+    "id_jenis_usaha": "1",
+    "alamat": "GANG NILA",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "213",
+    "nama_pemilik": "MA BELA",
+    "nama_usaha": "MA BELA",
+    "id_jenis_usaha": "1",
+    "alamat": "GANG NILA",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "214",
+    "nama_pemilik": "SUPRIADI",
+    "nama_usaha": "SUPRIADI",
+    "id_jenis_usaha": "1",
+    "alamat": "GANG NILA",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "215",
+    "nama_pemilik": "RESY",
+    "nama_usaha": "RESY",
+    "id_jenis_usaha": "1",
+    "alamat": "GANG NILA",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "216",
+    "nama_pemilik": "PONIMIN",
+    "nama_usaha": "PONIMIN",
+    "id_jenis_usaha": "1",
+    "alamat": "GANG NILA",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "217",
+    "nama_pemilik": "NENEK LEPE",
+    "nama_usaha": "NENEK LEPE",
+    "id_jenis_usaha": "1",
+    "alamat": "GANG NILA",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "218",
+    "nama_pemilik": "DEWI",
+    "nama_usaha": "DEWI",
+    "id_jenis_usaha": "1",
+    "alamat": "GANG NILA",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "219",
+    "nama_pemilik": "NUR",
+    "nama_usaha": "NUR",
+    "id_jenis_usaha": "1",
+    "alamat": "GANG NILA",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "220",
+    "nama_pemilik": "SINDY",
+    "nama_usaha": "SINDY",
+    "id_jenis_usaha": "1",
+    "alamat": "GANG NILA",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "221",
+    "nama_pemilik": "TUKIRAN",
+    "nama_usaha": "TUKIRAN",
+    "id_jenis_usaha": "1",
+    "alamat": "GANG NILA",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "222",
+    "nama_pemilik": "NUNUK",
+    "nama_usaha": "NUNUK",
+    "id_jenis_usaha": "1",
+    "alamat": "GANG NILA",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "223",
+    "nama_pemilik": "SAMIN",
+    "nama_usaha": "SAMIN",
+    "id_jenis_usaha": "1",
+    "alamat": "GANG NILA",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "224",
+    "nama_pemilik": "PAK JOKO",
+    "nama_usaha": "PAK JOKO",
+    "id_jenis_usaha": "1",
+    "alamat": "GANG NILA",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "225",
+    "nama_pemilik": "DEDI",
+    "nama_usaha": "DEDI",
+    "id_jenis_usaha": "1",
+    "alamat": "GANG NILA",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "226",
+    "nama_pemilik": "SARMIN",
+    "nama_usaha": "SARMIN",
+    "id_jenis_usaha": "1",
+    "alamat": "GANG NILA",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "227",
+    "nama_pemilik": "HARAHAP",
+    "nama_usaha": "HARAHAP",
+    "id_jenis_usaha": "1",
+    "alamat": "GANG NILA",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "228",
+    "nama_pemilik": "ARMADI",
+    "nama_usaha": "ARMADI",
+    "id_jenis_usaha": "1",
+    "alamat": "GANG NILA",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "229",
+    "nama_pemilik": "YATI",
+    "nama_usaha": "YATI",
+    "id_jenis_usaha": "1",
+    "alamat": "GANG NILA",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "230",
+    "nama_pemilik": "JUWANTO",
+    "nama_usaha": "JUWANTO",
+    "id_jenis_usaha": "1",
+    "alamat": "GANG NILA",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "231",
+    "nama_pemilik": "HENGKI",
+    "nama_usaha": "HENGKI",
+    "id_jenis_usaha": "1",
+    "alamat": "GANG NILA",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "232",
+    "nama_pemilik": "JUMI",
+    "nama_usaha": "JUMI",
+    "id_jenis_usaha": "1",
+    "alamat": "GANG NILA",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "233",
+    "nama_pemilik": "JUMIRAN",
+    "nama_usaha": "JUMIRAN",
+    "id_jenis_usaha": "1",
+    "alamat": "GANG NILA",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "234",
+    "nama_pemilik": "SUHARDIN",
+    "nama_usaha": "SUHARDIN",
+    "id_jenis_usaha": "1",
+    "alamat": "GANG NILA",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "235",
+    "nama_pemilik": "TUMIDI",
+    "nama_usaha": "TUMIDI",
+    "id_jenis_usaha": "1",
+    "alamat": "GANG NILA",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "236",
+    "nama_pemilik": "YULI",
+    "nama_usaha": "YULI",
+    "id_jenis_usaha": "1",
+    "alamat": "GANG NILA",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "237",
+    "nama_pemilik": "TAUFIK",
+    "nama_usaha": "TAUFIK",
+    "id_jenis_usaha": "1",
+    "alamat": "GANG NILA",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "238",
+    "nama_pemilik": "DEDI",
+    "nama_usaha": "DEDI",
+    "id_jenis_usaha": "1",
+    "alamat": "GANG NILA",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "239",
+    "nama_pemilik": "DARMAN",
+    "nama_usaha": "DARMAN",
+    "id_jenis_usaha": "1",
+    "alamat": "GANG NILA",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "240",
+    "nama_pemilik": "LUKY",
+    "nama_usaha": "LUKY",
+    "id_jenis_usaha": "1",
+    "alamat": "GANG NILA",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "241",
+    "nama_pemilik": "MULYONO",
+    "nama_usaha": "MULYONO",
+    "id_jenis_usaha": "1",
+    "alamat": "GANG NILA",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "242",
+    "nama_pemilik": "MAK AYBI",
+    "nama_usaha": "MAK AYBI",
+    "id_jenis_usaha": "1",
+    "alamat": "GANG NILA",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "243",
+    "nama_pemilik": "NIA. ANDRE",
+    "nama_usaha": "NIA. ANDRE",
+    "id_jenis_usaha": "1",
+    "alamat": "GANG NILA",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "244",
+    "nama_pemilik": "TONI",
+    "nama_usaha": "TONI",
+    "id_jenis_usaha": "1",
+    "alamat": "GANG NILA",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "245",
+    "nama_pemilik": "KASWAN",
+    "nama_usaha": "KASWAN",
+    "id_jenis_usaha": "1",
+    "alamat": "GANG NILA",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "246",
+    "nama_pemilik": "PUSEN",
+    "nama_usaha": "PUSEN",
+    "id_jenis_usaha": "1",
+    "alamat": "GANG NILA",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "247",
+    "nama_pemilik": "AULIA PUTRA",
+    "nama_usaha": "AULIA PUTRA",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN FAMILY",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "248",
+    "nama_pemilik": "PORIS PADILA",
+    "nama_usaha": "PORIS PADILA",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN FAMILY",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "249",
+    "nama_pemilik": "SURGA BED",
+    "nama_usaha": "SURGA BED",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN FAMILY",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "250",
+    "nama_pemilik": "HENDRA",
+    "nama_usaha": "HENDRA",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN FAMILY",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "251",
+    "nama_pemilik": "MERY",
+    "nama_usaha": "MERY",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN FAMILY",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "252",
+    "nama_pemilik": "SINTA",
+    "nama_usaha": "SINTA",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN FAMILY",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "253",
+    "nama_pemilik": "MARIUNI",
+    "nama_usaha": "MARIUNI",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN FAMILY",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "254",
+    "nama_pemilik": "HARYONO",
+    "nama_usaha": "HARYONO",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN FAMILY",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "255",
+    "nama_pemilik": "M.RAMLI",
+    "nama_usaha": "M.RAMLI",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN FAMILY",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "256",
+    "nama_pemilik": "RIAN",
+    "nama_usaha": "RIAN",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN FAMILY",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "257",
+    "nama_pemilik": "ITA HAFIZ",
+    "nama_usaha": "ITA HAFIZ",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN FAMILY",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "258",
+    "nama_pemilik": "DONA",
+    "nama_usaha": "DONA",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN FAMILY",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "259",
+    "nama_pemilik": "MARDAUN",
+    "nama_usaha": "MARDAUN",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN FAMILY",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "260",
+    "nama_pemilik": "DENDI",
+    "nama_usaha": "DENDI",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN FAMILY",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "261",
+    "nama_pemilik": "KOS",
+    "nama_usaha": "KOS",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN FAMILY",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "262",
+    "nama_pemilik": "ASEN",
+    "nama_usaha": "ASEN",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN FAMILY",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "263",
+    "nama_pemilik": "RENI",
+    "nama_usaha": "RENI",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN FAMILY",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "264",
+    "nama_pemilik": "ULUN",
+    "nama_usaha": "ULUN",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN FAMILY",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "265",
+    "nama_pemilik": "SUSAN FITRI",
+    "nama_usaha": "SUSAN FITRI",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN FAMILY",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "266",
+    "nama_pemilik": "RAMA",
+    "nama_usaha": "RAMA",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN FAMILY",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "267",
+    "nama_pemilik": "JANDI",
+    "nama_usaha": "JANDI",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN FAMILY",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "268",
+    "nama_pemilik": "AYA",
+    "nama_usaha": "AYA",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN FAMILY",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "269",
+    "nama_pemilik": "ASNA",
+    "nama_usaha": "ASNA",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN FAMILY",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "270",
+    "nama_pemilik": "ILMAN",
+    "nama_usaha": "ILMAN",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN FAMILY",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "271",
+    "nama_pemilik": "NURUL",
+    "nama_usaha": "NURUL",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN FAMILY",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "272",
+    "nama_pemilik": "SIARI",
+    "nama_usaha": "SIARI",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN FAMILY",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "273",
+    "nama_pemilik": "AKBAR",
+    "nama_usaha": "AKBAR",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN FAMILY",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "274",
+    "nama_pemilik": "DUTRA",
+    "nama_usaha": "DUTRA",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN FAMILY",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "275",
+    "nama_pemilik": "DARWANTO",
+    "nama_usaha": "DARWANTO",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN FAMILY",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "276",
+    "nama_pemilik": "LISNA",
+    "nama_usaha": "LISNA",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN POROS",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "277",
+    "nama_pemilik": "DEDI",
+    "nama_usaha": "DEDI",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN POROS",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "278",
+    "nama_pemilik": "PEWIN",
+    "nama_usaha": "PEWIN",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN POROS",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "279",
+    "nama_pemilik": "WITA",
+    "nama_usaha": "WITA",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN POROS",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "280",
+    "nama_pemilik": "YUSI",
+    "nama_usaha": "YUSI",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN POROS",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "281",
+    "nama_pemilik": "ADI",
+    "nama_usaha": "ADI",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN POROS",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "282",
+    "nama_pemilik": "ASMAWATI",
+    "nama_usaha": "ASMAWATI",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN POROS",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "283",
+    "nama_pemilik": "ANUAR",
+    "nama_usaha": "ANUAR",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN POROS",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "284",
+    "nama_pemilik": "NUR",
+    "nama_usaha": "NUR",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN POROS",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "285",
+    "nama_pemilik": "LUSI",
+    "nama_usaha": "LUSI",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN POROS",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "286",
+    "nama_pemilik": "DONES",
+    "nama_usaha": "DONES",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN POROS",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "287",
+    "nama_pemilik": "MULDOPO",
+    "nama_usaha": "MULDOPO",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN POROS",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "288",
+    "nama_pemilik": "JODI",
+    "nama_usaha": "JODI",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN POROS",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "289",
+    "nama_pemilik": "MIJAN",
+    "nama_usaha": "MIJAN",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN POROS",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "290",
+    "nama_pemilik": "VORA",
+    "nama_usaha": "VORA",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN POROS",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "291",
+    "nama_pemilik": "MARIAS",
+    "nama_usaha": "MARIAS",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN POROS",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "292",
+    "nama_pemilik": "YULI",
+    "nama_usaha": "YULI",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN POROS",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "293",
+    "nama_pemilik": "ELPI",
+    "nama_usaha": "ELPI",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN POROS",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "294",
+    "nama_pemilik": "BAMS",
+    "nama_usaha": "BAMS",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN POROS",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "295",
+    "nama_pemilik": "TONI",
+    "nama_usaha": "TONI",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN POROS",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "296",
+    "nama_pemilik": "RIKO",
+    "nama_usaha": "RIKO",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN POROS",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "297",
+    "nama_pemilik": "YANTI",
+    "nama_usaha": "YANTI",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN POROS",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "298",
+    "nama_pemilik": "APIS JAYA",
+    "nama_usaha": "APIS JAYA",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN POROS",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "299",
+    "nama_pemilik": "PARIO",
+    "nama_usaha": "PARIO",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN POROS",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "300",
+    "nama_pemilik": "IKBAL",
+    "nama_usaha": "IKBAL",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN POROS",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "301",
+    "nama_pemilik": "AMEL",
+    "nama_usaha": "AMEL",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN POROS",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "302",
+    "nama_pemilik": "PATIH",
+    "nama_usaha": "PATIH",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN POROS",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "303",
+    "nama_pemilik": "AMIR",
+    "nama_usaha": "AMIR",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN POROS",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "304",
+    "nama_pemilik": "SRIYATI",
+    "nama_usaha": "SRIYATI",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN POROS",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "305",
+    "nama_pemilik": "DIAN",
+    "nama_usaha": "DIAN",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN POROS",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "306",
+    "nama_pemilik": "ANDRIONO",
+    "nama_usaha": "ANDRIONO",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN POROS",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "307",
+    "nama_pemilik": "YULI",
+    "nama_usaha": "YULI",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN POROS",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "308",
+    "nama_pemilik": "PAK OLA",
+    "nama_usaha": "PAK OLA",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN POROS",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "309",
+    "nama_pemilik": "HENDRI",
+    "nama_usaha": "HENDRI",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN MERANTI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "310",
+    "nama_pemilik": "LINA",
+    "nama_usaha": "LINA",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN MERANTI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "311",
+    "nama_pemilik": "YOGA",
+    "nama_usaha": "YOGA",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN MERANTI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "312",
+    "nama_pemilik": "USNAN",
+    "nama_usaha": "USNAN",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN MERANTI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "313",
+    "nama_pemilik": "RIRIN",
+    "nama_usaha": "RIRIN",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN MERANTI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "314",
+    "nama_pemilik": "YULIANA",
+    "nama_usaha": "YULIANA",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN MERANTI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "315",
+    "nama_pemilik": "ZULKAR",
+    "nama_usaha": "ZULKAR",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN MERANTI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "316",
+    "nama_pemilik": "SUTRIS ",
+    "nama_usaha": "SUTRIS ",
+    "id_jenis_usaha": "1",
+    "alamat": "JALAN MERANTI",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "317",
+    "nama_pemilik": "SUPRIANTO",
+    "nama_usaha": "SUPRIANTO",
+    "id_jenis_usaha": "1",
+    "alamat": "GANG CEMARA",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "318",
+    "nama_pemilik": "SINTA",
+    "nama_usaha": "SINTA",
+    "id_jenis_usaha": "1",
+    "alamat": "GANG CEMARA",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "319",
+    "nama_pemilik": "BAYU",
+    "nama_usaha": "BAYU",
+    "id_jenis_usaha": "1",
+    "alamat": "GANG CEMARA",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "320",
+    "nama_pemilik": "ZULFAHMI",
+    "nama_usaha": "ZULFAHMI",
+    "id_jenis_usaha": "1",
+    "alamat": "GANG CEMARA",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "321",
+    "nama_pemilik": "CITRA",
+    "nama_usaha": "CITRA",
+    "id_jenis_usaha": "1",
+    "alamat": "GANG KASIM",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "322",
+    "nama_pemilik": "ERWAN",
+    "nama_usaha": "ERWAN",
+    "id_jenis_usaha": "1",
+    "alamat": "GANG KASIM",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "323",
+    "nama_pemilik": "DONI",
+    "nama_usaha": "DONI",
+    "id_jenis_usaha": "1",
+    "alamat": "GANG KASIM",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "324",
+    "nama_pemilik": "AGUS SURYA",
+    "nama_usaha": "AGUS SURYA",
+    "id_jenis_usaha": "1",
+    "alamat": "GANG KASIM",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "325",
+    "nama_pemilik": "RITA",
+    "nama_usaha": "RITA",
+    "id_jenis_usaha": "1",
+    "alamat": "GANG KASIM",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "326",
+    "nama_pemilik": "RATNA",
+    "nama_usaha": "RATNA",
+    "id_jenis_usaha": "1",
+    "alamat": "GANG KASIM",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "327",
+    "nama_pemilik": "SURYANI",
+    "nama_usaha": "SURYANI",
+    "id_jenis_usaha": "1",
+    "alamat": "GANG AJI MUHTAR",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "328",
+    "nama_pemilik": "ADI SYAPUTRA",
+    "nama_usaha": "ADI SYAPUTRA",
+    "id_jenis_usaha": "1",
+    "alamat": "GANG AJI MUHTAR",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "329",
+    "nama_pemilik": "DEDE",
+    "nama_usaha": "DEDE",
+    "id_jenis_usaha": "1",
+    "alamat": "GANG AJI MUHTAR",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "330",
+    "nama_pemilik": "MAWARNI",
+    "nama_usaha": "MAWARNI",
+    "id_jenis_usaha": "1",
+    "alamat": "GANG AJI MUHTAR",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "331",
+    "nama_pemilik": "EDI ASMOKO",
+    "nama_usaha": "EDI ASMOKO",
+    "id_jenis_usaha": "1",
+    "alamat": "GANG AJI MUHTAR",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "332",
+    "nama_pemilik": "YULIRA",
+    "nama_usaha": "YULIRA",
+    "id_jenis_usaha": "1",
+    "alamat": "GANG AJI MUHTAR",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "333",
+    "nama_pemilik": "ARIZAL",
+    "nama_usaha": "ARIZAL",
+    "id_jenis_usaha": "1",
+    "alamat": "GANG AJI MUHTAR",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "334",
+    "nama_pemilik": "BENI",
+    "nama_usaha": "BENI",
+    "id_jenis_usaha": "1",
+    "alamat": "NON GANG",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "335",
+    "nama_pemilik": "ANDRE PRATAMA",
+    "nama_usaha": "ANDRE PRATAMA",
+    "id_jenis_usaha": "1",
+    "alamat": "NON GANG",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "336",
+    "nama_pemilik": "ERNA",
+    "nama_usaha": "ERNA",
+    "id_jenis_usaha": "1",
+    "alamat": "NON GANG",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "337",
+    "nama_pemilik": "RUBIAH",
+    "nama_usaha": "RUBIAH",
+    "id_jenis_usaha": "1",
+    "alamat": "NON GANG",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "338",
+    "nama_pemilik": "ERWINSYAH",
+    "nama_usaha": "ERWINSYAH",
+    "id_jenis_usaha": "1",
+    "alamat": "NON GANG",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "339",
+    "nama_pemilik": "SUGIRMAN",
+    "nama_usaha": "SUGIRMAN",
+    "id_jenis_usaha": "1",
+    "alamat": "NON GANG",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "340",
+    "nama_pemilik": "ZAMSARI",
+    "nama_usaha": "ZAMSARI",
+    "id_jenis_usaha": "1",
+    "alamat": "NON GANG",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "341",
+    "nama_pemilik": "ABDUL AZIZ",
+    "nama_usaha": "ABDUL AZIZ",
+    "id_jenis_usaha": "1",
+    "alamat": "NON GANG",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "342",
+    "nama_pemilik": "EDO",
+    "nama_usaha": "EDO",
+    "id_jenis_usaha": "1",
+    "alamat": "NON GANG",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "343",
+    "nama_pemilik": "GOROM",
+    "nama_usaha": "GOROM",
+    "id_jenis_usaha": "1",
+    "alamat": "NON GANG",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "344",
+    "nama_pemilik": "AYOANGS",
+    "nama_usaha": "AYOANGS",
+    "id_jenis_usaha": "1",
+    "alamat": "NON GANG",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "345",
+    "nama_pemilik": "WIWIK",
+    "nama_usaha": "WIWIK",
+    "id_jenis_usaha": "1",
+    "alamat": "NON GANG",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "346",
+    "nama_pemilik": "TORUS",
+    "nama_usaha": "TORUS",
+    "id_jenis_usaha": "1",
+    "alamat": "NON GANG",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "347",
+    "nama_pemilik": "MARBUN",
+    "nama_usaha": "MARBUN",
+    "id_jenis_usaha": "1",
+    "alamat": "NON GANG",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "348",
+    "nama_pemilik": "BUDE",
+    "nama_usaha": "BUDE",
+    "id_jenis_usaha": "1",
+    "alamat": "NON GANG",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "349",
+    "nama_pemilik": "IRMA",
+    "nama_usaha": "IRMA",
+    "id_jenis_usaha": "1",
+    "alamat": "NON GANG",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "350",
+    "nama_pemilik": "OPI",
+    "nama_usaha": "OPI",
+    "id_jenis_usaha": "1",
+    "alamat": "NON GANG",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "351",
+    "nama_pemilik": "AFDI",
+    "nama_usaha": "AFDI",
+    "id_jenis_usaha": "1",
+    "alamat": "NON GANG",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "352",
+    "nama_pemilik": "JUMIATI",
+    "nama_usaha": "JUMIATI",
+    "id_jenis_usaha": "1",
+    "alamat": "NON GANG",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "353",
+    "nama_pemilik": "BU ANTO",
+    "nama_usaha": "BU ANTO",
+    "id_jenis_usaha": "1",
+    "alamat": "NON GANG",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "354",
+    "nama_pemilik": "NANDA",
+    "nama_usaha": "NANDA",
+    "id_jenis_usaha": "1",
+    "alamat": "BANGKOK",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "355",
+    "nama_pemilik": "OKI",
+    "nama_usaha": "OKI",
+    "id_jenis_usaha": "1",
+    "alamat": "BANGKOK",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "356",
+    "nama_pemilik": "IWAN",
+    "nama_usaha": "IWAN",
+    "id_jenis_usaha": "1",
+    "alamat": "BANGKOK",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "357",
+    "nama_pemilik": "SAMSUL ",
+    "nama_usaha": "SAMSUL ",
+    "id_jenis_usaha": "1",
+    "alamat": "BANGKOK",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "358",
+    "nama_pemilik": "NURLELA",
+    "nama_usaha": "NURLELA",
+    "id_jenis_usaha": "1",
+    "alamat": "BANGKOK",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "359",
+    "nama_pemilik": "TIYO RUDI",
+    "nama_usaha": "TIYO RUDI",
+    "id_jenis_usaha": "1",
+    "alamat": "BANGKOK",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "360",
+    "nama_pemilik": "ARDISYA",
+    "nama_usaha": "ARDISYA",
+    "id_jenis_usaha": "1",
+    "alamat": "BANGKOK",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "361",
+    "nama_pemilik": "RINI",
+    "nama_usaha": "RINI",
+    "id_jenis_usaha": "1",
+    "alamat": "BANGKOK",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "362",
+    "nama_pemilik": "BONO ZEL",
+    "nama_usaha": "BONO ZEL",
+    "id_jenis_usaha": "1",
+    "alamat": "BANGKOK",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "363",
+    "nama_pemilik": "SUARTO",
+    "nama_usaha": "SUARTO",
+    "id_jenis_usaha": "1",
+    "alamat": "BANGKOK",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "364",
+    "nama_pemilik": "MARDIA",
+    "nama_usaha": "MARDIA",
+    "id_jenis_usaha": "1",
+    "alamat": "BANGKOK",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "365",
+    "nama_pemilik": "ICA",
+    "nama_usaha": "ICA",
+    "id_jenis_usaha": "1",
+    "alamat": "BANGKOK",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "366",
+    "nama_pemilik": "IKA",
+    "nama_usaha": "IKA",
+    "id_jenis_usaha": "1",
+    "alamat": "BANGKOK",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "367",
+    "nama_pemilik": "IBRAHIM",
+    "nama_usaha": "IBRAHIM",
+    "id_jenis_usaha": "1",
+    "alamat": "BANGKOK",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "368",
+    "nama_pemilik": "ITIK",
+    "nama_usaha": "ITIK",
+    "id_jenis_usaha": "1",
+    "alamat": "BANGKOK",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "369",
+    "nama_pemilik": "FITRI",
+    "nama_usaha": "FITRI",
+    "id_jenis_usaha": "1",
+    "alamat": "BANGKOK",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "370",
+    "nama_pemilik": "EPENDI",
+    "nama_usaha": "EPENDI",
+    "id_jenis_usaha": "1",
+    "alamat": "BANGKOK",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "371",
+    "nama_pemilik": "INDAH",
+    "nama_usaha": "INDAH",
+    "id_jenis_usaha": "1",
+    "alamat": "BANGKOK",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "372",
+    "nama_pemilik": "SIHOMBING",
+    "nama_usaha": "SIHOMBING",
+    "id_jenis_usaha": "1",
+    "alamat": "BANGKOK",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "373",
+    "nama_pemilik": "PIPIT",
+    "nama_usaha": "PIPIT",
+    "id_jenis_usaha": "1",
+    "alamat": "BANGKOK",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "374",
+    "nama_pemilik": "BILKIS",
+    "nama_usaha": "BILKIS",
+    "id_jenis_usaha": "1",
+    "alamat": "BANGKOK",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "375",
+    "nama_pemilik": "PIKAN",
+    "nama_usaha": "PIKAN",
+    "id_jenis_usaha": "1",
+    "alamat": "BANGKOK",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "376",
+    "nama_pemilik": "BUDI.S",
+    "nama_usaha": "BUDI.S",
+    "id_jenis_usaha": "1",
+    "alamat": "BANGKOK",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "377",
+    "nama_pemilik": "ROSMINA",
+    "nama_usaha": "ROSMINA",
+    "id_jenis_usaha": "1",
+    "alamat": "BANGKOK",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "378",
+    "nama_pemilik": "API.L",
+    "nama_usaha": "API.L",
+    "id_jenis_usaha": "1",
+    "alamat": "BANGKOK",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "379",
+    "nama_pemilik": "DANIL MORA",
+    "nama_usaha": "DANIL MORA",
+    "id_jenis_usaha": "1",
+    "alamat": "BANGKOK",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "380",
+    "nama_pemilik": "RUPITIA",
+    "nama_usaha": "RUPITIA",
+    "id_jenis_usaha": "1",
+    "alamat": "BANGKOK",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "381",
+    "nama_pemilik": "PEBEN",
+    "nama_usaha": "PEBEN",
+    "id_jenis_usaha": "1",
+    "alamat": "BANGKOK",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "382",
+    "nama_pemilik": "SAWDI",
+    "nama_usaha": "SAWDI",
+    "id_jenis_usaha": "1",
+    "alamat": "BANGKOK",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "383",
+    "nama_pemilik": "EMI",
+    "nama_usaha": "EMI",
+    "id_jenis_usaha": "1",
+    "alamat": "BANGKOK",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "384",
+    "nama_pemilik": "BANG DIN",
+    "nama_usaha": "BANG DIN",
+    "id_jenis_usaha": "1",
+    "alamat": "BANGKOK",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "385",
+    "nama_pemilik": "YANTI",
+    "nama_usaha": "YANTI",
+    "id_jenis_usaha": "1",
+    "alamat": "BANGKOK",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "386",
+    "nama_pemilik": "MANSYUR",
+    "nama_usaha": "MANSYUR",
+    "id_jenis_usaha": "1",
+    "alamat": "BANGKOK",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "387",
+    "nama_pemilik": "HENDRA",
+    "nama_usaha": "HENDRA",
+    "id_jenis_usaha": "1",
+    "alamat": "BANGKOK",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "388",
+    "nama_pemilik": "AHDOYO",
+    "nama_usaha": "AHDOYO",
+    "id_jenis_usaha": "1",
+    "alamat": "BANGKOK",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "389",
+    "nama_pemilik": "FIKI",
+    "nama_usaha": "FIKI",
+    "id_jenis_usaha": "1",
+    "alamat": "BANGKOK",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "390",
+    "nama_pemilik": "DAYAT",
+    "nama_usaha": "DAYAT",
+    "id_jenis_usaha": "1",
+    "alamat": "BANGKOK",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "391",
+    "nama_pemilik": "RINDA",
+    "nama_usaha": "RINDA",
+    "id_jenis_usaha": "1",
+    "alamat": "BANGKOK",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "392",
+    "nama_pemilik": "YUDI",
+    "nama_usaha": "YUDI",
+    "id_jenis_usaha": "1",
+    "alamat": "BANGKOK",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "393",
+    "nama_pemilik": "RIA",
+    "nama_usaha": "RIA",
+    "id_jenis_usaha": "1",
+    "alamat": "BANGKOK",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "394",
+    "nama_pemilik": "MAKMUN",
+    "nama_usaha": "MAKMUN",
+    "id_jenis_usaha": "1",
+    "alamat": "BANGKOK",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "395",
+    "nama_pemilik": "YANTI",
+    "nama_usaha": "YANTI",
+    "id_jenis_usaha": "1",
+    "alamat": "BANGKOK",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "396",
+    "nama_pemilik": "ADAM",
+    "nama_usaha": "ADAM",
+    "id_jenis_usaha": "1",
+    "alamat": "BANGKOK",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "397",
+    "nama_pemilik": "SOLIKIN",
+    "nama_usaha": "SOLIKIN",
+    "id_jenis_usaha": "1",
+    "alamat": "BANGKOK",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "398",
+    "nama_pemilik": "KOIRI",
+    "nama_usaha": "KOIRI",
+    "id_jenis_usaha": "1",
+    "alamat": "BANGKOK",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "399",
+    "nama_pemilik": "ANIF",
+    "nama_usaha": "ANIF",
+    "id_jenis_usaha": "1",
+    "alamat": "BANGKOK",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "400",
+    "nama_pemilik": "WULAN",
+    "nama_usaha": "WULAN",
+    "id_jenis_usaha": "1",
+    "alamat": "BANGKOK",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "401",
+    "nama_pemilik": "SUCI",
+    "nama_usaha": "SUCI",
+    "id_jenis_usaha": "1",
+    "alamat": "BANGKOK",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "402",
+    "nama_pemilik": "PIKI",
+    "nama_usaha": "PIKI",
+    "id_jenis_usaha": "1",
+    "alamat": "BANGKOK",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "403",
+    "nama_pemilik": "DEDEN",
+    "nama_usaha": "DEDEN",
+    "id_jenis_usaha": "1",
+    "alamat": "BANGKOK",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "404",
+    "nama_pemilik": "AYU",
+    "nama_usaha": "AYU",
+    "id_jenis_usaha": "1",
+    "alamat": "BANGKOK",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "405",
+    "nama_pemilik": "ALI",
+    "nama_usaha": "ALI",
+    "id_jenis_usaha": "1",
+    "alamat": "BANGKOK",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "406",
+    "nama_pemilik": "ELI",
+    "nama_usaha": "ELI",
+    "id_jenis_usaha": "1",
+    "alamat": "BANGKOK",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "407",
+    "nama_pemilik": "AGUS",
+    "nama_usaha": "AGUS",
+    "id_jenis_usaha": "1",
+    "alamat": "BANGKOK",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "408",
+    "nama_pemilik": "FIYAN",
+    "nama_usaha": "FIYAN",
+    "id_jenis_usaha": "1",
+    "alamat": "BANGKOK",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "409",
+    "nama_pemilik": "JUMADI",
+    "nama_usaha": "JUMADI",
+    "id_jenis_usaha": "1",
+    "alamat": "BANGKOK",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "410",
+    "nama_pemilik": "LANI",
+    "nama_usaha": "LANI",
+    "id_jenis_usaha": "1",
+    "alamat": "BANGKOK",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "411",
+    "nama_pemilik": "P D A",
+    "nama_usaha": "P D A",
+    "id_jenis_usaha": "1",
+    "alamat": "BANGKOK",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "412",
+    "nama_pemilik": "HENRI",
+    "nama_usaha": "HENRI",
+    "id_jenis_usaha": "1",
+    "alamat": "BANGKOK",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "413",
+    "nama_pemilik": "NASIR",
+    "nama_usaha": "NASIR",
+    "id_jenis_usaha": "1",
+    "alamat": "BANGKOK",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "414",
+    "nama_pemilik": "JALIASMAN",
+    "nama_usaha": "JALIASMAN",
+    "id_jenis_usaha": "1",
+    "alamat": "BANGKOK",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "415",
+    "nama_pemilik": "ALBI ID",
+    "nama_usaha": "ALBI ID",
+    "id_jenis_usaha": "1",
+    "alamat": "BANGKOK",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "416",
+    "nama_pemilik": "EMA",
+    "nama_usaha": "EMA",
+    "id_jenis_usaha": "1",
+    "alamat": "BANGKOK",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "417",
+    "nama_pemilik": "LENA",
+    "nama_usaha": "LENA",
+    "id_jenis_usaha": "1",
+    "alamat": "BANGKOK",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "418",
+    "nama_pemilik": "HANRI",
+    "nama_usaha": "HANRI",
+    "id_jenis_usaha": "1",
+    "alamat": "BANGKOK",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "419",
+    "nama_pemilik": "KIKI",
+    "nama_usaha": "KIKI",
+    "id_jenis_usaha": "1",
+    "alamat": "BANGKOK",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "420",
+    "nama_pemilik": "IWAN",
+    "nama_usaha": "IWAN",
+    "id_jenis_usaha": "1",
+    "alamat": "BANGKOK",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "421",
+    "nama_pemilik": "DARMAWI",
+    "nama_usaha": "DARMAWI",
+    "id_jenis_usaha": "1",
+    "alamat": "BANGKOK",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "422",
+    "nama_pemilik": "GOPAL",
+    "nama_usaha": "GOPAL",
+    "id_jenis_usaha": "1",
+    "alamat": "BANGKOK",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "423",
+    "nama_pemilik": "ARUN",
+    "nama_usaha": "ARUN",
+    "id_jenis_usaha": "1",
+    "alamat": "BANGKOK",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "424",
+    "nama_pemilik": "PATMAN",
+    "nama_usaha": "PATMAN",
+    "id_jenis_usaha": "1",
+    "alamat": "BANGKOK",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "425",
+    "nama_pemilik": "UCOK",
+    "nama_usaha": "UCOK",
+    "id_jenis_usaha": "1",
+    "alamat": "BANGKOK",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "426",
+    "nama_pemilik": "ADI",
+    "nama_usaha": "ADI",
+    "id_jenis_usaha": "1",
+    "alamat": "BANGKOK",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "427",
+    "nama_pemilik": "NAGA",
+    "nama_usaha": "NAGA",
+    "id_jenis_usaha": "1",
+    "alamat": "BANGKOK",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "428",
+    "nama_pemilik": "CASMAN",
+    "nama_usaha": "CASMAN",
+    "id_jenis_usaha": "1",
+    "alamat": "BANGKOK",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "429",
+    "nama_pemilik": "DEWI",
+    "nama_usaha": "DEWI",
+    "id_jenis_usaha": "1",
+    "alamat": "BANGKOK",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "430",
+    "nama_pemilik": "WIRI",
+    "nama_usaha": "WIRI",
+    "id_jenis_usaha": "1",
+    "alamat": "BANGKOK",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "431",
+    "nama_pemilik": "YANTI",
+    "nama_usaha": "YANTI",
+    "id_jenis_usaha": "1",
+    "alamat": "BANGKOK",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "432",
+    "nama_pemilik": "INDRA",
+    "nama_usaha": "INDRA",
+    "id_jenis_usaha": "1",
+    "alamat": "BANGKOK",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "433",
+    "nama_pemilik": "HENTO",
+    "nama_usaha": "HENTO",
+    "id_jenis_usaha": "1",
+    "alamat": "BANGKOK",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "434",
+    "nama_pemilik": "PIKA",
+    "nama_usaha": "PIKA",
+    "id_jenis_usaha": "1",
+    "alamat": "BANGKOK",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "435",
+    "nama_pemilik": "APTIWAN",
+    "nama_usaha": "APTIWAN",
+    "id_jenis_usaha": "1",
+    "alamat": "BANGKOK",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "436",
+    "nama_pemilik": "MALINSUNG",
+    "nama_usaha": "MALINSUNG",
+    "id_jenis_usaha": "1",
+    "alamat": "BANGKOK",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "437",
+    "nama_pemilik": "ERI",
+    "nama_usaha": "ERI",
+    "id_jenis_usaha": "1",
+    "alamat": "BANGKOK",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "438",
+    "nama_pemilik": "RADI",
+    "nama_usaha": "RADI",
+    "id_jenis_usaha": "1",
+    "alamat": "BANGKOK",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "439",
+    "nama_pemilik": "ADI",
+    "nama_usaha": "ADI",
+    "id_jenis_usaha": "1",
+    "alamat": "BANGKOK",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "440",
+    "nama_pemilik": "ION",
+    "nama_usaha": "ION",
+    "id_jenis_usaha": "1",
+    "alamat": "BANGKOK",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "441",
+    "nama_pemilik": "KIKI",
+    "nama_usaha": "KIKI",
+    "id_jenis_usaha": "1",
+    "alamat": "BANGKOK",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "442",
+    "nama_pemilik": "PERDI",
+    "nama_usaha": "PERDI",
+    "id_jenis_usaha": "1",
+    "alamat": "BANGKOK",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "443",
+    "nama_pemilik": "SRIMATO",
+    "nama_usaha": "SRIMATO",
+    "id_jenis_usaha": "1",
+    "alamat": "BANGKOK",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "444",
+    "nama_pemilik": "PATLI",
+    "nama_usaha": "PATLI",
+    "id_jenis_usaha": "1",
+    "alamat": "BANGKOK",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "445",
+    "nama_pemilik": "LANI",
+    "nama_usaha": "LANI",
+    "id_jenis_usaha": "1",
+    "alamat": "BANGKOK",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "446",
+    "nama_pemilik": "TOBING",
+    "nama_usaha": "TOBING",
+    "id_jenis_usaha": "1",
+    "alamat": "BANGKOK",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "447",
+    "nama_pemilik": "MARZUKI",
+    "nama_usaha": "MARZUKI",
+    "id_jenis_usaha": "1",
+    "alamat": "BANGKOK",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "448",
+    "nama_pemilik": "ZALADI",
+    "nama_usaha": "ZALADI",
+    "id_jenis_usaha": "1",
+    "alamat": "BANGKOK",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "449",
+    "nama_pemilik": "AYU",
+    "nama_usaha": "AYU",
+    "id_jenis_usaha": "1",
+    "alamat": "BANGKOK",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "450",
+    "nama_pemilik": "LINA",
+    "nama_usaha": "LINA",
+    "id_jenis_usaha": "1",
+    "alamat": "BANGKOK",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "451",
+    "nama_pemilik": "DATMAN",
+    "nama_usaha": "DATMAN",
+    "id_jenis_usaha": "1",
+    "alamat": "BANGKOK",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "452",
+    "nama_pemilik": "NUR KOLIC",
+    "nama_usaha": "NUR KOLIC",
+    "id_jenis_usaha": "1",
+    "alamat": "BANGKOK",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "453",
+    "nama_pemilik": "AYU",
+    "nama_usaha": "AYU",
+    "id_jenis_usaha": "1",
+    "alamat": "BANGKOK",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "454",
+    "nama_pemilik": "DIKI",
+    "nama_usaha": "DIKI",
+    "id_jenis_usaha": "1",
+    "alamat": "BANGKOK",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "455",
+    "nama_pemilik": "MARJENI",
+    "nama_usaha": "MARJENI",
+    "id_jenis_usaha": "1",
+    "alamat": "GANG PANCASILA",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "456",
+    "nama_pemilik": "SAHWARI",
+    "nama_usaha": "SAHWARI",
+    "id_jenis_usaha": "1",
+    "alamat": "GANG PANCASILA",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "457",
+    "nama_pemilik": "SUKISNO",
+    "nama_usaha": "SUKISNO",
+    "id_jenis_usaha": "1",
+    "alamat": "GANG PANCASILA",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "458",
+    "nama_pemilik": "KADER",
+    "nama_usaha": "KADER",
+    "id_jenis_usaha": "1",
+    "alamat": "GANG PANCASILA",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "459",
+    "nama_pemilik": "KOMAR",
+    "nama_usaha": "KOMAR",
+    "id_jenis_usaha": "1",
+    "alamat": "GANG PANCASILA",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "460",
+    "nama_pemilik": "WARSITO",
+    "nama_usaha": "WARSITO",
+    "id_jenis_usaha": "1",
+    "alamat": "GANG PANCASILA",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "461",
+    "nama_pemilik": "BUDI",
+    "nama_usaha": "BUDI",
+    "id_jenis_usaha": "1",
+    "alamat": "GANG PANCASILA",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "462",
+    "nama_pemilik": "MARSONO",
+    "nama_usaha": "MARSONO",
+    "id_jenis_usaha": "1",
+    "alamat": "GANG PANCASILA",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "463",
+    "nama_pemilik": "HERU",
+    "nama_usaha": "HERU",
+    "id_jenis_usaha": "1",
+    "alamat": "GANG PANCASILA",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "464",
+    "nama_pemilik": "SUPRAPTO",
+    "nama_usaha": "SUPRAPTO",
+    "id_jenis_usaha": "1",
+    "alamat": "GANG PANCASILA",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "465",
+    "nama_pemilik": "RUDI HARTONO",
+    "nama_usaha": "RUDI HARTONO",
+    "id_jenis_usaha": "1",
+    "alamat": "GANG PANCASILA",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "466",
+    "nama_pemilik": "SUNARDI",
+    "nama_usaha": "SUNARDI",
+    "id_jenis_usaha": "1",
+    "alamat": "GANG PANCASILA",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "467",
+    "nama_pemilik": "HELGA",
+    "nama_usaha": "HELGA",
+    "id_jenis_usaha": "1",
+    "alamat": "GANG PANCASILA",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "468",
+    "nama_pemilik": "DANU",
+    "nama_usaha": "DANU",
+    "id_jenis_usaha": "1",
+    "alamat": "GANG PANCASILA",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "469",
+    "nama_pemilik": "RUSMAN",
+    "nama_usaha": "RUSMAN",
+    "id_jenis_usaha": "1",
+    "alamat": "GANG PANCASILA",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "470",
+    "nama_pemilik": "ASNIDAR",
+    "nama_usaha": "ASNIDAR",
+    "id_jenis_usaha": "1",
+    "alamat": "GANG PANCASILA",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "471",
+    "nama_pemilik": "ROBY",
+    "nama_usaha": "ROBY",
+    "id_jenis_usaha": "1",
+    "alamat": "GANG PANCASILA",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "472",
+    "nama_pemilik": "RIKI PARMANTO",
+    "nama_usaha": "RIKI PARMANTO",
+    "id_jenis_usaha": "1",
+    "alamat": "GANG PANCASILA",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "473",
+    "nama_pemilik": "TIMBUL",
+    "nama_usaha": "TIMBUL",
+    "id_jenis_usaha": "1",
+    "alamat": "GANG PANCASILA",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "474",
+    "nama_pemilik": "TEGUH",
+    "nama_usaha": "TEGUH",
+    "id_jenis_usaha": "1",
+    "alamat": "GANG PANCASILA",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "475",
+    "nama_pemilik": "PAK PUH",
+    "nama_usaha": "PAK PUH",
+    "id_jenis_usaha": "1",
+    "alamat": "GANG PANCASILA",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "476",
+    "nama_pemilik": "ERWANTO",
+    "nama_usaha": "ERWANTO",
+    "id_jenis_usaha": "1",
+    "alamat": "GANG PANCASILA",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "477",
+    "nama_pemilik": "ARI PRASTYA",
+    "nama_usaha": "ARI PRASTYA",
+    "id_jenis_usaha": "1",
+    "alamat": "GANG PANCASILA",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "478",
+    "nama_pemilik": "JUMADI",
+    "nama_usaha": "JUMADI",
+    "id_jenis_usaha": "1",
+    "alamat": "GANG PANCASILA",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "479",
+    "nama_pemilik": "KASMI",
+    "nama_usaha": "KASMI",
+    "id_jenis_usaha": "1",
+    "alamat": "GANG PANCASILA",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "480",
+    "nama_pemilik": "RAHMAT",
+    "nama_usaha": "RAHMAT",
+    "id_jenis_usaha": "1",
+    "alamat": "GANG PANCASILA",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "481",
+    "nama_pemilik": "DEWA",
+    "nama_usaha": "DEWA",
+    "id_jenis_usaha": "1",
+    "alamat": "GANG PANCASILA",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "482",
+    "nama_pemilik": "J.R SIMBOLON",
+    "nama_usaha": "J.R SIMBOLON",
+    "id_jenis_usaha": "1",
+    "alamat": "GANG PANCASILA",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "483",
+    "nama_pemilik": "SENDRIS ",
+    "nama_usaha": "SENDRIS ",
+    "id_jenis_usaha": "1",
+    "alamat": "GANG PANCASILA",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "484",
+    "nama_pemilik": "LISNA",
+    "nama_usaha": "LISNA",
+    "id_jenis_usaha": "1",
+    "alamat": "GANG PANCASILA",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "485",
+    "nama_pemilik": "AMARAN SIREGAR",
+    "nama_usaha": "AMARAN SIREGAR",
+    "id_jenis_usaha": "1",
+    "alamat": "GANG PANCASILA",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "486",
+    "nama_pemilik": "AMLY",
+    "nama_usaha": "AMLY",
+    "id_jenis_usaha": "1",
+    "alamat": "GANG PANCASILA",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "487",
+    "nama_pemilik": "HENGKY",
+    "nama_usaha": "HENGKY",
+    "id_jenis_usaha": "1",
+    "alamat": "GANG PANCASILA",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "488",
+    "nama_pemilik": "NARHASIS",
+    "nama_usaha": "NARHASIS",
+    "id_jenis_usaha": "1",
+    "alamat": "GANG PANCASILA",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "489",
+    "nama_pemilik": "AKBAR",
+    "nama_usaha": "AKBAR",
+    "id_jenis_usaha": "1",
+    "alamat": "GANG PANCASILA",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "490",
+    "nama_pemilik": "NOVAL",
+    "nama_usaha": "NOVAL",
+    "id_jenis_usaha": "1",
+    "alamat": "GANG PANCASILA",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "491",
+    "nama_pemilik": "ERWIN NST",
+    "nama_usaha": "ERWIN NST",
+    "id_jenis_usaha": "1",
+    "alamat": "GANG PANCASILA",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "492",
+    "nama_pemilik": "ARIZAL",
+    "nama_usaha": "ARIZAL",
+    "id_jenis_usaha": "1",
+    "alamat": "GANG PANCASILA",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "493",
+    "nama_pemilik": "HENDRA PUTRA",
+    "nama_usaha": "HENDRA PUTRA",
+    "id_jenis_usaha": "1",
+    "alamat": "GANG PANCASILA",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "494",
+    "nama_pemilik": "PARWANTO",
+    "nama_usaha": "PARWANTO",
+    "id_jenis_usaha": "1",
+    "alamat": "GANG PANCASILA",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "495",
+    "nama_pemilik": "RIKY PERDANA",
+    "nama_usaha": "RIKY PERDANA",
+    "id_jenis_usaha": "1",
+    "alamat": "GANG PANCASILA",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "496",
+    "nama_pemilik": "SRINOTO",
+    "nama_usaha": "SRINOTO",
+    "id_jenis_usaha": "1",
+    "alamat": "GANG PANCASILA",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "497",
+    "nama_pemilik": "IWAN DELTA",
+    "nama_usaha": "IWAN DELTA",
+    "id_jenis_usaha": "1",
+    "alamat": "GANG PANCASILA",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "498",
+    "nama_pemilik": "ANTONIO",
+    "nama_usaha": "ANTONIO",
+    "id_jenis_usaha": "1",
+    "alamat": "GANG PANCASILA",
+    "id_zona": "5"
+  },
+  {
+    "k1": "DLH",
+    "k2": "I",
+    "k3": "499",
+    "nama_pemilik": "EFENDI",
+    "nama_usaha": "EFENDI",
+    "id_jenis_usaha": "1",
+    "alamat": "GANG PANCASILA",
+    "id_zona": "5"
+  }
+]

@@ -1,0 +1,252 @@
+.bg-primary {
+	background-color: #6e1111 !important;
+}
+
+.text-primary {
+	color: #6e1111 !important;
+}
+
+a {
+	color: #6e1111;
+}
+
+a:hover {
+	color: #c92424;
+}
+
+.btn-primary {
+	background-color: #6e1111;
+	border-color: transparent !important;
+}
+
+.btn-primary:focus,
+.btn-primary:focus:active,
+.btn-primary:active,
+.btn-primary:hover {
+	background-color: #c92424 !important;
+}
+
+.btn-primary.disabled,
+.btn-primary:disabled {
+	background-color: #6e1111;
+	border-color: #6e1111;
+}
+
+.btn-outline-primary {
+	color: #6e1111;
+	background-color: transparent;
+	background-image: none;
+	border-color: #6e1111;
+}
+
+.btn-outline-primary:hover {
+	color: #fff;
+	background-color: #6e1111;
+	border-color: #6e1111;
+}
+
+.btn-outline-primary.disabled,
+.btn-outline-primary:disabled {
+	color: #6e1111;
+	background-color: transparent;
+}
+
+.btn-outline-primary:not([disabled]):not(.disabled):active,
+.btn-outline-primary:not([disabled]):not(.disabled).active,
+.show>.btn-outline-primary.dropdown-toggle {
+	color: #fff;
+	background-color: #6e1111;
+	border-color: #6e1111;
+}
+
+.btn-link {
+	font-weight: 400;
+	color: #6e1111;
+	background-color: transparent;
+}
+
+.btn-link:hover {
+	color: #ffffff;
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+	color: #fff;
+	background-color: #6e1111;
+}
+
+.custom-control-input:checked~.custom-control-label::before {
+	color: #fff;
+	background-color: #6e1111;
+}
+
+.custom-checkbox .custom-control-input:checked~.custom-control-label::before {
+	background-color: #6e1111;
+}
+
+.custom-checkbox .custom-control-input:indeterminate~.custom-control-label::before {
+	background-color: #6e1111;
+}
+
+.custom-radio .custom-control-input:checked~.custom-control-label::before {
+	background-color: #6e1111;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+	color: #fff;
+	background-color: #6e1111;
+}
+
+.page-link {
+	color: #6e1111;
+	background-color: #c92424;
+	border: 1px solid #ededed;
+}
+
+.page-item.active .page-link {
+	color: #fff;
+	background-color: #6e1111;
+	border-color: #6e1111;
+}
+
+.page-link:focus,
+.page-link:hover {
+	color: #ffffff;
+}
+
+.badge-primary {
+	color: #fff;
+	background-color: #6e1111;
+}
+
+.progress-bar {
+	color: #fff;
+	background-color: #6e1111;
+}
+
+.list-group-item.active {
+	color: #fff;
+	background-color: #6e1111;
+	border-color: #6e1111;
+}
+
+.bg-primary {
+	background-color: #6e1111 !important;
+}
+
+.border-primary {
+	border-color: #6e1111 !important;
+}
+
+.text-primary {
+	color: #6e1111 !important;
+}
+
+.navbar.active {
+	background-color: #6e1111;
+}
+
+.navbar-bg {
+	background-color: #6e1111;
+}
+
+.form-control:focus {
+	border-color: #6e1111;
+}
+
+.main-sidebar .sidebar-menu li.active a {
+	background-color: #f9f9f9;
+	color: #6e1111;
+}
+
+.main-sidebar .sidebar-menu li ul.menu-dropdown li a:hover {
+	color: #6e1111;
+}
+
+.main-sidebar .sidebar-menu li ul.menu-dropdown li.active a {
+	color: #6e1111;
+}
+
+.alert.alert-primary {
+	background-color: #6e1111;
+}
+
+.card.card-primary {
+	border-top: 2px solid #6e1111;
+}
+
+.fc .fc-state-active {
+	background-color: #6e1111;
+	color: #fff;
+}
+
+.jqvmap-circle {
+	background-color: #6e1111;
+	border: 1px solid #000;
+}
+
+.weather ul li {
+	border: 2px solid #6e1111;
+	color: #6e1111;
+}
+
+.card-chat .chat-content .chat-item.chat-right .chat-details .chat-text {
+	background-color: #6e1111;
+	color: #fff;
+}
+
+.nav-tabs .nav-item .nav-link {
+	color: #6e1111;
+}
+
+.nav-pills .nav-item .nav-link {
+	color: #6e1111;
+}
+
+.swal-button.swal-button--confirm {
+	background-color: #6e1111;
+}
+
+.swal-button.swal-button--confirm:hover {
+	background-color: #c92424 !important;
+	color: #fff;
+
+}
+
+.page-item .page-link {
+	color: #6e1111;
+}
+
+.page-item.active .page-link {
+	background-color: #6e1111;
+	border-color: #6e1111;
+}
+
+.btn-group .btn.active {
+	background-color: #6e1111;
+	color: #fff;
+}
+
+.media .media-right {
+	color: #6e1111;
+}
+
+.selectric-items li.selected,
+.selectric-items li.highlighted {
+	background-color: #6e1111;
+	color: #fff;
+}
+
+.dropzone {
+	border: 2px dashed #6e1111;
+}
+
+.accordion .accordion-header[aria-expanded="true"] {
+	background-color: #6e1111;
+	color: #fff;
+}
+
+.bootstrap-tagsinput .tag {
+	background-color: #6e1111;
+}

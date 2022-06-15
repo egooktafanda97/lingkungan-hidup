@@ -1,0 +1,299 @@
+[
+  {
+    "kode": "001",
+    "nama_pemilik": "KANTOR BUPATI PELALAWAN",
+    "alamat": "Kantor Bupati Pelalawan",
+    "nama_usaha": "KANTOR BUPATI PELALAWAN",
+    "id_zona": "1",
+    "id_jenis_usaha": "1",
+    "id_jurupungut": "1"
+  },
+  {
+    "kode": "002",
+    "nama_pemilik": "KANTOR DPRD PELALAWAN",
+    "alamat": "Komplek DPRD",
+    "nama_usaha": "KANTOR DPRD PELALAWAN",
+    "id_zona": "1",
+    "id_jenis_usaha": "1",
+    "id_jurupungut": "1"
+  },
+  {
+    "kode": "003",
+    "nama_pemilik": "DPKAD",
+    "alamat": "Komplek Bhakti Praja",
+    "nama_usaha": "DPKAD",
+    "id_zona": "1",
+    "id_jenis_usaha": "1",
+    "id_jurupungut": "1"
+  },
+  {
+    "kode": "004",
+    "nama_pemilik": "BAPPEDA",
+    "alamat": "Komplek Bhakti Praja",
+    "nama_usaha": "BAPPEDA",
+    "id_zona": "1",
+    "id_jenis_usaha": "1",
+    "id_jurupungut": "1"
+  },
+  {
+    "kode": "005",
+    "nama_pemilik": "BPN KAB. PELALAWAN",
+    "alamat": "Komplek Bhakti Praja",
+    "nama_usaha": "BPN KAB. PELALAWAN",
+    "id_zona": "1",
+    "id_jenis_usaha": "1",
+    "id_jurupungut": "1"
+  },
+  {
+    "kode": "006",
+    "nama_pemilik": "DINAS KESEHATAN",
+    "alamat": "Komplek Bhakti Praja",
+    "nama_usaha": "DINAS KESEHATAN",
+    "id_zona": "1",
+    "id_jenis_usaha": "1",
+    "id_jurupungut": "1"
+  },
+  {
+    "kode": "007",
+    "nama_pemilik": "KANTOR PELAYANAN PAJAK PRATAMA",
+    "alamat": "Komplek Bhakti Praja",
+    "nama_usaha": "KANTOR PELAYANAN PAJAK PRATAMA",
+    "id_zona": "1",
+    "id_jenis_usaha": "1",
+    "id_jurupungut": "1"
+  },
+  {
+    "kode": "008",
+    "nama_pemilik": "KEMENAG",
+    "alamat": "Komplek Bhakti Praja",
+    "nama_usaha": "KEMENAG",
+    "id_zona": "1",
+    "id_jenis_usaha": "1",
+    "id_jurupungut": "1"
+  },
+  {
+    "kode": "009",
+    "nama_pemilik": "INSPEKTORAT",
+    "alamat": "Komplek Bhakti Praja",
+    "nama_usaha": "INSPEKTORAT",
+    "id_zona": "1",
+    "id_jenis_usaha": "1",
+    "id_jurupungut": "1"
+  },
+  {
+    "kode": "010",
+    "nama_pemilik": "DINAS LINGKUNGAN HIDUP",
+    "alamat": "Komplek Bhakti Praja",
+    "nama_usaha": "DINAS LINGKUNGAN HIDUP",
+    "id_zona": "1",
+    "id_jenis_usaha": "1",
+    "id_jurupungut": "1"
+  },
+  {
+    "kode": "011",
+    "nama_pemilik": "DINAS PUPR",
+    "alamat": "Komplek Bhakti Praja",
+    "nama_usaha": "DINAS PUPR",
+    "id_zona": "1",
+    "id_jenis_usaha": "1",
+    "id_jurupungut": "1"
+  },
+  {
+    "kode": "012",
+    "nama_pemilik": "DINAS KETAHANAN PANGAN, TANAMAN PANGAN DAN HORTIKULTURA",
+    "alamat": "Komplek Bhakti Praja",
+    "nama_usaha": "DINAS KETAHANAN PANGAN, TANAMAN PANGAN DAN HORTIKULTURA",
+    "id_zona": "1",
+    "id_jenis_usaha": "1",
+    "id_jurupungut": "1"
+  },
+  {
+    "kode": "013",
+    "nama_pemilik": "KANTOR SAMSAT",
+    "alamat": "Komplek Bhakti Praja",
+    "nama_usaha": "KANTOR SAMSAT",
+    "id_zona": "1",
+    "id_jenis_usaha": "1",
+    "id_jurupungut": "1"
+  },
+  {
+    "kode": "014",
+    "nama_pemilik": "DINAS PENDIDIKAN DAN KEBUDAYAAN",
+    "alamat": "Komplek Bhakti Praja",
+    "nama_usaha": "DINAS PENDIDIKAN DAN KEBUDAYAAN",
+    "id_zona": "1",
+    "id_jenis_usaha": "1",
+    "id_jurupungut": "1"
+  },
+  {
+    "kode": "015",
+    "nama_pemilik": "SATPOL PP DAN DAMKAR",
+    "alamat": "Komplek Bhakti Praja",
+    "nama_usaha": "SATPOL PP DAN DAMKAR",
+    "id_zona": "1",
+    "id_jenis_usaha": "1",
+    "id_jurupungut": "1"
+  },
+  {
+    "kode": "016",
+    "nama_pemilik": "DINAS SOSIAL",
+    "alamat": "Komplek Bhakti Praja",
+    "nama_usaha": "DINAS SOSIAL",
+    "id_zona": "1",
+    "id_jenis_usaha": "1",
+    "id_jurupungut": "1"
+  },
+  {
+    "kode": "017",
+    "nama_pemilik": "DINAS DUKCAPIL",
+    "alamat": "Komplek Bhakti Praja",
+    "nama_usaha": "DINAS DUKCAPIL",
+    "id_zona": "1",
+    "id_jenis_usaha": "1",
+    "id_jurupungut": "1"
+  },
+  {
+    "kode": "018",
+    "nama_pemilik": "DINAS PARIWISATA DAN PEMUDA",
+    "alamat": "Komplek Bhakti Praja",
+    "nama_usaha": "DINAS PARIWISATA DAN PEMUDA",
+    "id_zona": "1",
+    "id_jenis_usaha": "1",
+    "id_jurupungut": "1"
+  },
+  {
+    "kode": "019",
+    "nama_pemilik": "DINAS ARSIP DAN PERPUSTAKAAN",
+    "alamat": "Komplek Bhakti Praja",
+    "nama_usaha": "DINAS ARSIP DAN PERPUSTAKAAN",
+    "id_zona": "1",
+    "id_jenis_usaha": "1",
+    "id_jurupungut": "1"
+  },
+  {
+    "kode": "020",
+    "nama_pemilik": "DINAS D3AP3KB",
+    "alamat": "Komplek Bhakti Praja",
+    "nama_usaha": "DINAS D3AP3KB",
+    "id_zona": "1",
+    "id_jenis_usaha": "1",
+    "id_jurupungut": "1"
+  },
+  {
+    "kode": "021",
+    "nama_pemilik": "DINAS KOPERASI, UKM DAN PERINDAG",
+    "alamat": "Komplek Bhakti Praja",
+    "nama_usaha": "DINAS KOPERASI, UKM DAN PERINDAG",
+    "id_zona": "1",
+    "id_jenis_usaha": "1",
+    "id_jurupungut": "1"
+  },
+  {
+    "kode": "022",
+    "nama_pemilik": "DISNAKERTRAN",
+    "alamat": "Komplek Bhakti Praja",
+    "nama_usaha": "DISNAKERTRAN",
+    "id_zona": "1",
+    "id_jenis_usaha": "1",
+    "id_jurupungut": "1"
+  },
+  {
+    "kode": "023",
+    "nama_pemilik": "BPBD",
+    "alamat": "Komplek Bhakti Praja",
+    "nama_usaha": "BPBD",
+    "id_zona": "1",
+    "id_jenis_usaha": "1",
+    "id_jurupungut": "1"
+  },
+  {
+    "kode": "024",
+    "nama_pemilik": "BADAN KESBANGPOL",
+    "alamat": "Komplek Bhakti Praja",
+    "nama_usaha": "BADAN KESBANGPOL",
+    "id_zona": "1",
+    "id_jenis_usaha": "1",
+    "id_jurupungut": "1"
+  },
+  {
+    "kode": "025",
+    "nama_pemilik": "BALITBANGDA",
+    "alamat": "Komplek Bhakti Praja",
+    "nama_usaha": "BALITBANGDA",
+    "id_zona": "1",
+    "id_jenis_usaha": "1",
+    "id_jurupungut": "1"
+  },
+  {
+    "kode": "026",
+    "nama_pemilik": "BPMPD",
+    "alamat": "Komplek Bhakti Praja",
+    "nama_usaha": "BPMPD",
+    "id_zona": "1",
+    "id_jenis_usaha": "1",
+    "id_jurupungut": "1"
+  },
+  {
+    "kode": "027",
+    "nama_pemilik": "DINAS PERKEBUNAN DAN PETERNAKAN",
+    "alamat": "Komplek Bhakti Praja",
+    "nama_usaha": "DINAS PERKEBUNAN DAN PETERNAKAN",
+    "id_zona": "1",
+    "id_jenis_usaha": "1",
+    "id_jurupungut": "1"
+  },
+  {
+    "kode": "028",
+    "nama_pemilik": "DINAS PERIKANAN DAN KELAUTAN",
+    "alamat": "Komplek Bhakti Praja",
+    "nama_usaha": "DINAS PERIKANAN DAN KELAUTAN",
+    "id_zona": "1",
+    "id_jenis_usaha": "1",
+    "id_jurupungut": "1"
+  },
+  {
+    "kode": "029",
+    "nama_pemilik": "DPMPTSP",
+    "alamat": "Komplek Bhakti Praja",
+    "nama_usaha": "DPMPTSP",
+    "id_zona": "1",
+    "id_jenis_usaha": "1",
+    "id_jurupungut": "1"
+  },
+  {
+    "kode": "030",
+    "nama_pemilik": "KPU",
+    "alamat": "Komplek Bhakti Praja",
+    "nama_usaha": "KPU",
+    "id_zona": "1",
+    "id_jenis_usaha": "1",
+    "id_jurupungut": "1"
+  },
+  {
+    "kode": "031",
+    "nama_pemilik": "DINAS PERHUBUNGAN",
+    "alamat": "Jl. Loging RAPP km 5",
+    "nama_usaha": "DINAS PERHUBUNGAN",
+    "id_zona": "1",
+    "id_jenis_usaha": "1",
+    "id_jurupungut": "1"
+  },
+  {
+    "kode": "032",
+    "nama_pemilik": "KANTOR BPS",
+    "alamat": "Jl. T. Said Jaafar",
+    "nama_usaha": "KANTOR BPS",
+    "id_zona": "1",
+    "id_jenis_usaha": "1",
+    "id_jurupungut": "1"
+  },
+  {
+    "kode": "033",
+    "nama_pemilik": "KANTOR CAMAT PKL KERINCI",
+    "alamat": "Jl. T. Said Jaafar",
+    "nama_usaha": "KANTOR CAMAT PKL KERINCI",
+    "id_zona": "1",
+    "id_jenis_usaha": "1",
+    "id_jurupungut": "1"
+  }
+]
