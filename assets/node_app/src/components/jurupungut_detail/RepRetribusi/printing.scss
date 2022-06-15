@@ -1,0 +1,150 @@
+table {
+	font-size: 1rem !important;
+
+	th,
+	td {
+		padding: 5px !important;
+		font-size: 1.5vh !important;
+		// white-space: nowrap !impo rtant;
+	}
+}
+
+// ======= print =====
+.table-print {
+	border: 1px !important;
+	width: 100% !important;
+	border-collapse: collapse !important;
+}
+
+.pagePapper {
+	// width: 210mm;
+	// height: 297mm;
+	width: 100%;
+	padding: 1.5cm;
+	font-family: "Times New Roman", Times, serif;
+
+	.header {
+		display: flex;
+		justify-content: space-between;
+		width: 100%;
+		height: auto;
+
+		.logo {
+			width: 100px;
+			height: 100px;
+			padding-left: 5px;
+			padding-right: 5px;
+			// background-color: red;
+		}
+
+		.header-contain {
+			width: 100%;
+			flex: 1;
+			height: auto;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+
+			div {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				margin: 0;
+				padding: 0;
+			}
+		}
+	}
+
+	.horizontal-line {
+		margin-top: 10px;
+		border-bottom: 3px solid #000;
+		width: 100%;
+	}
+
+	.no-letter {
+		width: 100%;
+		margin-top: 20px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-bottom: 20px;
+	}
+
+	.content {
+		width: 100%;
+
+		table {
+			// width: 100%;
+			margin-bottom: 10px;
+
+			tr {
+
+				th,
+				td {
+					padding-top: 5px;
+					padding-bottom: 5px;
+					font-family: "Times New Roman", Times, serif;
+					font-size: 1vh !important;
+					// white-space: nowrap !important;
+				}
+			}
+		}
+
+		.content-detail {
+			width: 100%;
+			font-size: 14px;
+
+			// table {
+			// 	width: 100%;
+			// 	margin-bottom: 10px;
+
+			// 	tr {
+			// 		td {
+			// 			padding-top: 5px;
+			// 			padding-bottom: 5px;
+			// 			font-family: "Times New Roman", Times, serif;
+			// 			font-size: 1.5vh !important;
+			// 			// white-space: nowrap !important;
+			// 		}
+			// 	}
+			// }
+
+			.footer-signature {
+				margin-top: 20px;
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+				width: 100%;
+
+				.sig {
+					width: 35%;
+					height: auto;
+					display: flex;
+					justify-content: center;
+					flex-direction: column;
+				}
+			}
+		}
+	}
+
+	.table-container {
+		width: 100%;
+	}
+}
+
+// @page {
+// 	size: A4;
+// 	margin: 0;
+// }
+
+// @media print {
+
+// 	html,
+// 	body {
+// 		width: 210mm;
+// 		height: 297mm;
+// 	}
+
+// 	/* ... the rest of the rules ... */
+// }
