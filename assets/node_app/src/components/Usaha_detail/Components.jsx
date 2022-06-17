@@ -219,26 +219,7 @@ export default function Components() {
 											onClick={() => {
 												setPage(
 													<div>
-														<img
-															src={
-																localStorage.getItem("web_url") +
-																"assets/img/qr/qr_template.jpg"
-															}
-															style={{ width: "100%", height: "350px" }}
-														/>
-														<div
-															style={{
-																position: "absolute",
-																zIndex: 999,
-																top: 0,
-																right: 0,
-																bottom: 0,
-																marginTop: "260px",
-																marginRight: "130px",
-															}}
-														>
-															<QrCode load={true} code={data.qrCode} />
-														</div>
+														<Qr code={data.qrCode} />
 													</div>
 												);
 												setPageAct(6);
@@ -515,13 +496,168 @@ const Qr = (props) => {
 				<div
 					style={{
 						width: "100%",
-						height: "300px",
+						height: "350px",
+						background: "red",
 						display: "flex",
-						justifyContent: "center",
-						alignItems: "center",
+						justifyContent: "space-between",
 					}}
 				>
-					<QrCode code={props.code} />
+					<div
+						style={{
+							width: "60%",
+							padding: "10px",
+							height: "100%",
+						}}
+					>
+						<div
+							style={{
+								display: "flex",
+								justifyContent: "center",
+								alignItems: "center",
+								background: "#fff",
+								width: "100%",
+								height: "100%",
+								borderRadius: "5px",
+								flexDirection: "column",
+							}}
+						>
+							<img
+								src={
+									localStorage.getItem("web_url") + "assets/img/logo/logo.png"
+								}
+								style={{ width: "10%" }}
+								alt=""
+							/>
+							<h2
+								style={{
+									fontSize: ".9em",
+									margin: 0,
+									padding: 0,
+									fontWeight: "bold",
+								}}
+							>
+								PEMERINTAHAN KABUPATEN PELALAWAN
+							</h2>
+							<h2
+								style={{
+									fontSize: ".9em",
+									margin: 0,
+									padding: 0,
+									fontWeight: "bold",
+								}}
+							>
+								DINAS LINGKUNGAN HIDUP
+							</h2>
+							<div
+								style={{
+									background: "#111",
+									width: "90%",
+									height: "2px",
+									marginTop: "5px",
+									marginBottom: "5px",
+								}}
+							></div>
+							<h2 style={{ fontSize: ".7em", margin: 0, padding: 0 }}>
+								PERATURAN DAERAH KABUPATEN PELALAWAN
+							</h2>
+							<h2 style={{ fontSize: ".7em", margin: 0, padding: 0 }}>
+								NO. 1 TAHUN 2019 PERUBAHAN ATAS
+							</h2>
+							<h2 style={{ fontSize: ".7em", margin: 0, padding: 0 }}>
+								PERATURAN DAERAH KABUPATEN PELALAWAN NO. 1
+							</h2>
+							<h2 style={{ fontSize: ".7em", margin: 0, padding: 0 }}>
+								TAHUN 2016
+							</h2>
+							<h2 style={{ fontSize: ".7em", margin: 0, padding: 0 }}>
+								TENTANG RETRIBUSI DAERAH
+							</h2>
+						</div>
+					</div>
+					<div
+						style={{
+							width: "40%",
+							padding: "10px",
+							height: "100%",
+						}}
+					>
+						<div
+							style={{
+								display: "flex",
+								justifyContent: "center",
+								alignItems: "center",
+								width: "100%",
+								height: "100%",
+								flexDirection: "column",
+							}}
+						>
+							<h2
+								style={{
+									fontSize: ".7em",
+									margin: 0,
+									padding: 0,
+									fontWeight: "bold",
+									background: "#fff",
+									paddingRight: "5px",
+									paddingLeft: "5px",
+									paddingTop: "3px",
+									paddingBottom: "3px",
+								}}
+							>
+								IURAN RETRIBUSI KEBERSIHAN
+							</h2>
+							<div
+								style={{
+									border: "2px solid #fff",
+									padding: "3px",
+									borderRadius: "5px",
+									display: "flex",
+									justifyContent: "center",
+									alignItems: "center",
+									paddingTop: "10px",
+									paddingLeft: "10px",
+									paddingRight: "10px",
+									background: "#fff",
+									marginTop: "5px",
+									marginBottom: "5px",
+								}}
+							>
+								<div>
+									<QrCode code={props.code} />
+								</div>
+							</div>
+							<div
+								style={{
+									color: "#fff",
+									display: "flex",
+									flexDirection: "column",
+									justifyContent: "center",
+									alignItems: "center",
+								}}
+							>
+								<h2
+									style={{
+										fontSize: ".7em",
+										margin: 0,
+										padding: 0,
+										fontWeight: "bold",
+									}}
+								>
+									SCAN DISINI
+								</h2>
+								<h4
+									style={{
+										fontSize: ".5em",
+										margin: 0,
+										padding: 0,
+										fontWeight: "bold",
+									}}
+								>
+									untuk melihat status pembayaran
+								</h4>
+							</div>
+						</div>
+					</div>
 				</div>
 			) : (
 				<div
