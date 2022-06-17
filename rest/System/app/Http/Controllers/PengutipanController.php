@@ -50,9 +50,11 @@ class PengutipanController extends Controller
         } else {
             try {
                 $usaha = Pengutipan::create($data);
-                // upsaldo
                 $us = User::where('id', auth()->user()->id)->first();
-                $upSaldo = User::where('id', auth()->user()->id)->update(["saldo" => $us->saldo]);
+                $jmlSaldo = (float) $us->saldo + (float) $jml;
+
+
+                User::where('id', auth()->user()->id)->update(["saldo" => $jmlSaldo]);
                 // ----
                 return response()->json(["status" => true, "response" => $usaha, "msg" => "data berhasil di insert"], 200);
             } catch (\Throwable $th) {
