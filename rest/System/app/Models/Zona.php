@@ -19,7 +19,7 @@ class Zona extends Model
     {
         return $this->hasMany('App\Models\Usaha', 'id_zona', 'id_zona');
     }
-    public function getData($type, $param = [])
+    public static function getData($type, $param = [])
     {
         switch ($type) {
             case 'all':
