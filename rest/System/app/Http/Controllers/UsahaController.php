@@ -158,7 +158,7 @@ class UsahaController extends Controller
     }
     public function checkByQr($Qr)
     {
-        $get = Usaha::where('qrCode', $Qr)->get()->count();
+        $get = Usaha::where(['qrCode' => $Qr, "id_jurupungut" => auth()->user()->id])->get()->count();
         if ($get == 1) {
             return response()->json(true, 200);
         } else {
