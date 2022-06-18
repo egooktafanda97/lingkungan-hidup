@@ -9,7 +9,7 @@ export const PrintQrCode = forwardRef((props, ref) => {
 				{` @media print{
             @page {
               width: 210mm;
-              size: A4 landscape;
+              size: A4 portrait;
               margin: .5cm !important;
               padding: 0 !important;
             }
@@ -26,121 +26,180 @@ export const PrintQrCode = forwardRef((props, ref) => {
 								<div className="item">
 									<div
 										style={{
+											padding: 15,
+											background: "red",
 											width: "100%",
 											height: "100%",
-											background: "red",
-											display: "flex",
-											justifyContent: "space-between",
 										}}
 									>
 										<div
 											style={{
-												width: "60%",
-												padding: "10px",
+												padding: 15,
+												borderRadius: 10,
+												width: "100%",
 												height: "100%",
+												background: "#fff",
 											}}
 										>
-											<div
-												style={{
-													display: "flex",
-													justifyContent: "center",
-													alignItems: "center",
-													background: "#fff",
-													width: "100%",
-													height: "100%",
-													borderRadius: "5px",
-													flexDirection: "column",
-												}}
-											>
+											<div style={{ display: "flex", alignItems: "center" }}>
 												<img
+													style={{ width: "25px", height: "33px" }}
 													src={
 														localStorage.getItem("web_url") +
 														"assets/img/logo/logo.png"
 													}
-													style={{ width: "10%" }}
 													alt=""
 												/>
-												<h2
-													style={{
-														fontSize: ".9em",
-														margin: 0,
-														padding: 0,
-														fontWeight: "bold",
-													}}
-												>
-													PEMERINTAHAN KABUPATEN PELALAWAN
-												</h2>
-												<h2
-													style={{
-														fontSize: ".9em",
-														margin: 0,
-														padding: 0,
-														fontWeight: "bold",
-													}}
-												>
-													DINAS LINGKUNGAN HIDUP
-												</h2>
-												<div
-													style={{
-														background: "#111",
-														width: "90%",
-														height: "2px",
-														marginTop: "5px",
-														marginBottom: "5px",
-													}}
-												></div>
-												<h2 style={{ fontSize: ".7em", margin: 0, padding: 0 }}>
-													PERATURAN DAERAH KABUPATEN PELALAWAN
-												</h2>
-												<h2 style={{ fontSize: ".7em", margin: 0, padding: 0 }}>
-													NO. 1 TAHUN 2019 PERUBAHAN ATAS
-												</h2>
-												<h2 style={{ fontSize: ".7em", margin: 0, padding: 0 }}>
-													PERATURAN DAERAH KABUPATEN PELALAWAN NO. 1
-												</h2>
-												<h2 style={{ fontSize: ".7em", margin: 0, padding: 0 }}>
-													TAHUN 2016
-												</h2>
-												<h2 style={{ fontSize: ".7em", margin: 0, padding: 0 }}>
-													TENTANG RETRIBUSI DAERAH
-												</h2>
+												<div style={{ marginLeft: "10px" }}>
+													<div style={{ fontSize: ".4em" }}>
+														<strong
+															style={{ fontFamily: "'Poppins', sans-serif" }}
+														>
+															PEMERINTAH KABUPATEN PELALAWAN
+														</strong>
+													</div>
+													<div style={{ fontSize: ".4em" }}>
+														<strong
+															style={{ fontFamily: "'Poppins', sans-serif" }}
+														>
+															DINAS LINGKUNGAN HIDUP
+														</strong>
+													</div>
+													<div style={{ fontSize: ".4em" }}>
+														<strong
+															style={{ fontFamily: "'Poppins', sans-serif" }}
+														>
+															BIDANG PENGELOLAAN SAMPAH B3 DAN LIMBAH B3
+														</strong>
+													</div>
+												</div>
 											</div>
-										</div>
-										<div
-											style={{
-												width: "40%",
-												padding: "10px",
-												height: "100%",
-											}}
-										>
+
 											<div
 												style={{
 													display: "flex",
 													justifyContent: "center",
 													alignItems: "center",
-													width: "100%",
-													height: "100%",
+													alignContent: "center",
 													flexDirection: "column",
+													marginTop: "5px",
 												}}
 											>
+												<h2
+													style={{
+														fontSize: ".8em",
+														margin: 0,
+														padding: 0,
+														fontWeight: "bold",
+														color: "#000",
+														paddingRight: "5px",
+														paddingLeft: "5px",
+														paddingTop: "3px",
+														paddingBottom: "3px",
+														fontFamily: " 'Montserrat', sans-serif",
+													}}
+												>
+													Kartu Pembayaran
+												</h2>
 												<h2
 													style={{
 														fontSize: ".7em",
 														margin: 0,
 														padding: 0,
 														fontWeight: "bold",
-														background: "#fff",
+														background: "red",
+														color: "#fff",
 														paddingRight: "5px",
 														paddingLeft: "5px",
 														paddingTop: "3px",
 														paddingBottom: "3px",
+														fontFamily: " 'Montserrat', sans-serif",
 													}}
 												>
-													IURAN RETRIBUSI KEBERSIHAN
+													RETRIBUSI SAMPAH
 												</h2>
 												<div
 													style={{
-														border: "2px solid #fff",
+														width: "50%",
+														fontSize: ".6em",
+														marginTop: "5px",
+														marginBottom: "5px",
+														paddingLeft: "20px",
+													}}
+												>
+													<div
+														style={{ display: "flex", alignItems: "center" }}
+													>
+														<div
+															style={{
+																width: "30px",
+																fontSize: ".6em",
+																margin: 0,
+																padding: 0,
+															}}
+														>
+															KODE
+														</div>
+														<div
+															style={{
+																fontSize: ".6em",
+																margin: 0,
+																padding: 0,
+															}}
+														>
+															: {item?.kode ?? "-"}
+														</div>
+													</div>
+													<div
+														style={{ display: "flex", alignItems: "center" }}
+													>
+														<div
+															style={{
+																width: "30px",
+																fontSize: ".6em",
+																margin: 0,
+																padding: 0,
+															}}
+														>
+															NAMA
+														</div>
+														<div
+															style={{
+																fontSize: ".6em",
+																margin: 0,
+																padding: 0,
+															}}
+														>
+															: {item?.nama_usaha ?? "-"}
+														</div>
+													</div>
+													<div
+														style={{ display: "flex", alignItems: "center" }}
+													>
+														<div
+															style={{
+																width: "30px",
+																fontSize: ".6em",
+																margin: 0,
+																padding: 0,
+															}}
+														>
+															OBJEK
+														</div>
+														<div
+															style={{
+																fontSize: ".6em",
+																margin: 0,
+																padding: 0,
+															}}
+														>
+															: {item?.jenis_usaha ?? "-"}
+														</div>
+													</div>
+												</div>
+												<div
+													style={{
+														border: "2px solid #111",
 														padding: "3px",
 														borderRadius: "5px",
 														display: "flex",
@@ -158,35 +217,56 @@ export const PrintQrCode = forwardRef((props, ref) => {
 														<Qr code={item.hidden} />
 													</div>
 												</div>
-												<div
+												<h2
 													style={{
-														color: "#fff",
-														display: "flex",
-														flexDirection: "column",
-														justifyContent: "center",
-														alignItems: "center",
+														fontSize: ".7em",
+														margin: 0,
+														padding: 0,
+														fontWeight: "bold",
+														color: "#000",
+														paddingRight: "5px",
+														paddingLeft: "5px",
+														paddingTop: "3px",
+														paddingBottom: "3px",
+														fontFamily: " 'Montserrat', sans-serif",
 													}}
 												>
-													<h2
+													<strong>SCAN DISINI</strong> untuk melihat status
+												</h2>
+												<div>
+													<div
 														style={{
-															fontSize: ".7em",
-															margin: 0,
-															padding: 0,
-															fontWeight: "bold",
-														}}
-													>
-														SCAN DISINI
-													</h2>
-													<h4
-														style={{
+															textAlign: "center",
 															fontSize: ".5em",
-															margin: 0,
-															padding: 0,
+															fontFamily: "'Poppins', sans-serif",
 															fontWeight: "bold",
 														}}
 													>
-														untuk melihat status pembayaran
-													</h4>
+														PERATURAN DAERAH KABUPATEN PELALAWAN NO. 1 TAHUN
+														2019
+													</div>
+													<div
+														style={{
+															textAlign: "center",
+															fontSize: ".5em",
+															fontFamily: "'Poppins', sans-serif",
+															fontWeight: "bold",
+														}}
+													>
+														PERUBAHAN ATAS PERATURAN DAERAH
+													</div>
+
+													<div
+														style={{
+															textAlign: "center",
+															fontSize: ".5em",
+															fontFamily: "'Poppins', sans-serif",
+															fontWeight: "bold",
+														}}
+													>
+														KABUPATEN PELALAWAN NO. 1 TAHUN 2016 TENTANG
+														RETRIBUSI DAERAH
+													</div>
 												</div>
 											</div>
 										</div>

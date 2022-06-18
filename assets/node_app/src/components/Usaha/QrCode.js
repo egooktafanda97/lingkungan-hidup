@@ -7,7 +7,7 @@ export default function QrCode(props) {
 			<QRCodeSVG
 				value={`${UrlClientSite}?key=${props.code}`}
 				renderAs="canvas"
-				style={{ width: "120px", height: "120px", padding: 0, margin: 0 }}
+				style={{ width: "80px", height: "80px", padding: 0, margin: 0 }}
 			/>
 		</span>
 	);

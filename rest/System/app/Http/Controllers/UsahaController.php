@@ -162,7 +162,7 @@ class UsahaController extends Controller
         if ($get == 1) {
             return response()->json(true, 200);
         } else {
-            return response()->json(false, 200);
+            return response()->json(false, 400);
         }
     }
     public function get($type, $param = null)
