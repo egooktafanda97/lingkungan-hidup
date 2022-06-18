@@ -349,7 +349,7 @@ const Retribusi = () => {
 					},
 				},
 				"TAHUN",
-				"TANGGAL kUTIP",
+				"TANGGAL KUTIP",
 				"TOTAL TERTAGIH",
 				"JURU PUNGUT",
 			],

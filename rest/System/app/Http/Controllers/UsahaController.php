@@ -44,7 +44,7 @@ class UsahaController extends Controller
             return response()->json($validator->errors(), 422);
         }
         $id_zona = $request->id_zona;
-        if (!empty($request->newZona) && $request->newZona == true) {
+        if (!empty($request->newZona) && $request->newZona == "new") {
             $ZonaData = [
                 "nama_zona" => $request->id_zona,
                 "keterangan" => "-",
@@ -81,7 +81,7 @@ class UsahaController extends Controller
         } else {
             try {
                 $usaha = Usaha::create($data);
-                return response()->json(["status" => true, "response" => $usaha, "msg" => "data berhasil di insert"], 200);
+                return response()->json(["status" => true, "response" => $usaha, "msg" => "data berhasil di insert", "res" => $request->newZona], 200);
             } catch (\Exception $e) {
                 return response()->json(["status" => false, "response" => "error", "msg" => $e], 400);
             }
@@ -235,7 +235,11 @@ class UsahaController extends Controller
                 return response()->json($get, 200);
                 break;
             default:
-                $get = Usaha::where("visible", true)->orderBy("created_at", "DESC")->get();
+                if (!empty($_GET["juruId"])) {
+                    $get = Usaha::where(["visible" => true, "id_jurupungut" => $_GET["juruId"]])->orderBy("created_at", "DESC")->get();
+                } else {
+                    $get = Usaha::where("visible", true)->orderBy("created_at", "DESC")->get();
+                }
                 foreach ($get as  $value) {
                     $value->user;
                     $value->zona;

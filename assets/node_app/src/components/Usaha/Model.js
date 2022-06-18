@@ -15,82 +15,82 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Build, Colom } from "./setTable";
 
 const actionReq = async (data, reponse) => {
-  const post = await axios
-    .post(localStorage.getItem("base_url") + "api/usaha/create", data)
-    .catch((err) => {
-      $(".btn-form-submit").removeClass("loading");
-      console.log(err.reponse);
-      toastr.error("data gagal di simpan");
-    });
-  if (post != undefined && post.status == 200) {
-    swal({
-      title: "Sukses",
-      text: "",
-      icon: "success",
-      button: "Oke",
-    });
-    reponse(post.data);
-  }
+	const post = await axios
+		.post(localStorage.getItem("base_url") + "api/usaha/create", data)
+		.catch((err) => {
+			$(".btn-form-submit").removeClass("loading");
+			console.log(err.reponse);
+			toastr.error("data gagal di simpan");
+		});
+	if (post != undefined && post.status == 200) {
+		swal({
+			title: "Sukses",
+			text: "",
+			icon: "success",
+			button: "Oke",
+		});
+		reponse(post.data);
+	}
 };
 
-const UsahaGet = async (reponse) => {
-  const gets = await axios
-    .get(localStorage.getItem("base_url") + "api/usaha/getData")
-    .catch((err) => {
-      console.log(err.reponse);
-    });
-  if (gets != undefined && gets.status == 200) {
-    reponse(gets.data);
-  }
+const UsahaGet = async (id, reponse) => {
+	const gets = await axios
+		.get(localStorage.getItem("base_url") + "api/usaha/getData?juruId=" + id)
+		.catch((err) => {
+			console.log(err.reponse);
+		});
+	if (gets != undefined && gets.status == 200) {
+		reponse(gets.data);
+	}
 };
 
 const UserGetUser = async (reponse) => {
-  const gets = await axios
-    .get(localStorage.getItem("base_url") + "api/auth/user-get")
-    .catch((err) => {
-      console.log(err.reponse);
-    });
-  if (gets != undefined && gets.status == 200) {
-    reponse(gets.data);
-  }
+	const gets = await axios
+		.get(localStorage.getItem("base_url") + "api/auth/user-get")
+		.catch((err) => {
+			console.log(err.reponse);
+		});
+	if (gets != undefined && gets.status == 200) {
+		reponse(gets.data);
+	}
 };
 const GetDataZaona = async (reponse) => {
-  const gets = await axios
-    .get(localStorage.getItem("base_url") + "api/zona/get/all")
-    .catch((err) => {
-      console.log(err.reponse);
-    });
-  if (gets != undefined && gets.status == 200) {
-    reponse(gets.data);
-  }
+	const gets = await axios
+		.get(localStorage.getItem("base_url") + "api/zona/get/all")
+		.catch((err) => {
+			console.log(err.reponse);
+		});
+	if (gets != undefined && gets.status == 200) {
+		reponse(gets.data);
+	}
 };
 const GetDataJenisUsaha = async (reponse) => {
-  const gets = await axios
-    .get(localStorage.getItem("base_url") + "api/jenis_usaha/get/all")
-    .catch((err) => {
-      console.log(err.reponse);
-    });
-  if (gets != undefined && gets.status == 200) {
-    reponse(gets.data);
-  }
+	const gets = await axios
+		.get(localStorage.getItem("base_url") + "api/jenis_usaha/get/all")
+		.catch((err) => {
+			console.log(err.reponse);
+		});
+	if (gets != undefined && gets.status == 200) {
+		reponse(gets.data);
+	}
 };
 
 const getUsahaById = async (id, result) => {
-  const gets = await axios
-    .get(localStorage.getItem("base_url") + "api/usaha/getByIdUsaha/" + id)
-    .catch((err) => {
-      console.log(err.reponse);
-    });
-  if (gets != undefined && gets.status == 200) {
-    result(gets.data);
-  }
+	const gets = await axios
+		.get(localStorage.getItem("base_url") + "api/usaha/getByIdUsaha/" + id)
+		.catch((err) => {
+			console.log(err.reponse);
+		});
+	if (gets != undefined && gets.status == 200) {
+		result(gets.data);
+	}
 };
 
 export {
-  actionReq,
-  UsahaGet,
-  UserGetUser,
-  GetDataZaona,
-  GetDataJenisUsaha,
-  getUsahaById,
+	actionReq,
+	UsahaGet,
+	UserGetUser,
+	GetDataZaona,
+	GetDataJenisUsaha,
+	getUsahaById,
 };

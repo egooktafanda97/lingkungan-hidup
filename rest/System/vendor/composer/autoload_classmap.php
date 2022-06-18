@@ -35,6 +35,7 @@ return array(
     'App\\Http\\Middleware\\TrustHosts' => $baseDir . '/app/Http/Middleware/TrustHosts.php',
     'App\\Http\\Middleware\\TrustProxies' => $baseDir . '/app/Http/Middleware/TrustProxies.php',
     'App\\Http\\Middleware\\VerifyCsrfToken' => $baseDir . '/app/Http/Middleware/VerifyCsrfToken.php',
+    'App\\Imports\\UsahaImport' => $baseDir . '/app/Imports/UsahaImport.php',
     'App\\Models\\HistorySaldo' => $baseDir . '/app/Models/HistorySaldo.php',
     'App\\Models\\JenisUsaha' => $baseDir . '/app/Models/JenisUsaha.php',
     'App\\Models\\Npwrd' => $baseDir . '/app/Models/Npwrd.php',
