@@ -177,78 +177,84 @@ class ImportController extends Controller
                     User::create($roleValidate);
                 }
 
-                $getZon = Zona::where(["nama_zona" => $val["keterangan"]])->first();
-                if (empty($getZon)) {
-                    $Zon = [
-                        'nama_zona'     => $val["keterangan"],
-                        'keterangan'    => '-',
-                        'status_zona'   => 'active'
-                    ];
-                    Zona::create($Zon);
-                }
-
-
-                // $cekTarif = JenisUsaha::where(["jumlah_retribusi" => $val["tarif"]])->first();
-                // if (empty($cekTarif)) {
-                //     $jenisSplit = explode("/", $val['jenis']);
-                //     if (count($jenisSplit) == 3) {
-                //         $Triff = [
-                //             'kode_tipe'        => trim($jenisSplit[1]) . "-" . trim($jenisSplit[2]),
-                //             'tipe_usaha'       => trim($jenisSplit[1]) . "-" . trim($jenisSplit[2]),
-                //             'keterangan'       => '-',
-                //             'jumlah_retribusi' => $val["tarif"],
-                //             'status'           => 'aktif'
-                //         ];
-                //     } else {
-                //         $Triff = [
-                //             'tipe_usaha'       => $val["tarif"],
-                //             'keterangan'       => '-',
-                //             'jumlah_retribusi' => $val["tarif"],
-                //             'status'           => 'aktif'
-                //         ];
-                //     }
-
-                //     JenisUsaha::create($Triff);
-                // }
-                if (empty($val['kode_tipe'])) {
-                    $jenisSplit = explode("/", $val['jenis']);
-                    if (empty($jenisSplit[2])) {
-                        array_push($___error, $val);
-                        continue;
+                if (!empty($val['nama'])) {
+                    $getZon = Zona::where(["nama_zona" => $val["keterangan"]])->first();
+                    if (empty($getZon)) {
+                        $Zon = [
+                            'nama_zona'     => $val["keterangan"],
+                            'keterangan'    => '-',
+                            'status_zona'   => 'active'
+                        ];
+                        Zona::create($Zon);
                     }
-                    $__tarif = JenisUsaha::where(["kode_tipe" =>  trim($jenisSplit[1]) . "-" . trim($jenisSplit[2])])->first();
-                } else {
-                    $kode_tipe = explode("-", $val['kode_tipe']);
-                    $__tarif = JenisUsaha::where(["kode_tipe" =>  trim($kode_tipe[0]) . "-" . trim($kode_tipe[1])])->first();
-                }
 
-                $Us = User::where(["role" => "JURUPUNGUT", "nama" => $val["jurupungut"]])->first();
-                $getZonCreated = Zona::where(["nama_zona" => $val["keterangan"]])->first();
-                $__data = [
-                    "id_zona"       => $getZonCreated->id_zona,
-                    "alamat"        => $val["alamat"],
-                    "jenis_usaha" => !empty($val["jenis"]) ? explode("/", $val['jenis'])[0] : "-",
-                    "nama_usaha" => !empty($val["nama"]) ? $val["nama"] : "-",
-                    "nama_pemilik" =>  !empty($val["nama"]) ? $val["nama"] : "-",
-                    "id_jurupungut" => $Us->id,
-                    "id_tipe_usaha" => $__tarif->id_tipe_usaha,
-                    "kode"   => $val['kode'] . '-' . $val['bagian'] . '-' . $val['nomor'],
-                    "qrCode" => Str::random(40),
-                    "foto" => 'default.png',
-                    "didata" => date("Y-m-d"),
-                    "status" => true,
-                    "visible" => true,
-                    "date_visible" => date("Y-m-d H:i:s"),
-                ];
-                if (empty(Usaha::where("kode", $__data["kode"])->first())) {
-                    $_usaha = new Usaha($__data);
-                    if ($_usaha->save()) {
-                        array_push($___result, $_usaha);
+
+                    // $cekTarif = JenisUsaha::where(["jumlah_retribusi" => $val["tarif"]])->first();
+                    // if (empty($cekTarif)) {
+                    //     $jenisSplit = explode("/", $val['jenis']);
+                    //     if (count($jenisSplit) == 3) {
+                    //         $Triff = [
+                    //             'kode_tipe'        => trim($jenisSplit[1]) . "-" . trim($jenisSplit[2]),
+                    //             'tipe_usaha'       => trim($jenisSplit[1]) . "-" . trim($jenisSplit[2]),
+                    //             'keterangan'       => '-',
+                    //             'jumlah_retribusi' => $val["tarif"],
+                    //             'status'           => 'aktif'
+                    //         ];
+                    //     } else {
+                    //         $Triff = [
+                    //             'tipe_usaha'       => $val["tarif"],
+                    //             'keterangan'       => '-',
+                    //             'jumlah_retribusi' => $val["tarif"],
+                    //             'status'           => 'aktif'
+                    //         ];
+                    //     }
+
+                    //     JenisUsaha::create($Triff);
+                    // }
+                    if (empty($val['kode_tipe'])) {
+                        $jenisSplit = explode("/", $val['jenis']);
+                        if (empty($jenisSplit[2])) {
+                            array_push($___error, $val);
+                            continue;
+                        }
+                        $__tarif = JenisUsaha::where(["kode_tipe" =>  trim($jenisSplit[1]) . "-" . trim($jenisSplit[2])])->first();
                     } else {
-                        array_push($___error, $__data);
+                        $kode_tipe = explode("-", $val['kode_tipe']);
+                        $__tarif = JenisUsaha::where(["kode_tipe" =>  trim($kode_tipe[0]) . "-" . trim($kode_tipe[1])])->first();
                     }
-                } else {
-                    array_push($___error, $__data);
+                    if (!empty($__tarif)) {
+
+                        $Us = User::where(["role" => "JURUPUNGUT", "nama" => $val["jurupungut"]])->first();
+                        $getZonCreated = Zona::where(["nama_zona" => $val["keterangan"]])->first();
+                        $__data = [
+                            "id_zona"       => $getZonCreated->id_zona,
+                            "alamat"        => $val["alamat"],
+                            "jenis_usaha" => !empty($val["jenis"]) ? explode("/", $val['jenis'])[0] : "-",
+                            "nama_usaha" => !empty($val["nama"]) ? $val["nama"] : "-",
+                            "nama_pemilik" =>  !empty($val["nama"]) ? $val["nama"] : "-",
+                            "id_jurupungut" => $Us->id,
+                            "id_tipe_usaha" => $__tarif->id_tipe_usaha,
+                            "kode"   => $val['kode'] . '-' . $val['bagian'] . '-' . $val['nomor'],
+                            "qrCode" => Str::random(40),
+                            "foto" => 'default.png',
+                            "didata" => date("Y-m-d"),
+                            "status" => true,
+                            "visible" => true,
+                            "date_visible" => date("Y-m-d H:i:s"),
+                        ];
+                        if (empty(Usaha::where("kode", $__data["kode"])->first())) {
+                            $_usaha = new Usaha($__data);
+                            if ($_usaha->save()) {
+                                array_push($___result, $_usaha);
+                            } else {
+                                array_push($___error, $__data);
+                            }
+                        } else {
+                            array_push($___error, $__data);
+                        }
+                    } else {
+                        array_push($___error, $val);
+                    }
                 }
             }
         }

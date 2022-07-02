@@ -87,7 +87,7 @@ export const PrintQrCode = forwardRef((props, ref) => {
 											>
 												<h2
 													style={{
-														fontSize: ".8em",
+														fontSize: "1em",
 														margin: 0,
 														padding: 0,
 														fontWeight: "bold",
@@ -99,104 +99,24 @@ export const PrintQrCode = forwardRef((props, ref) => {
 														fontFamily: " 'Montserrat', sans-serif",
 													}}
 												>
-													Kartu Pembayaran
+													KARTU PEMBAYARAN
 												</h2>
 												<h2
 													style={{
-														fontSize: ".7em",
+														fontSize: "1em",
 														margin: 0,
 														padding: 0,
 														fontWeight: "bold",
-														background: "red",
-														color: "#fff",
+														color: "#000",
 														paddingRight: "5px",
 														paddingLeft: "5px",
-														paddingTop: "3px",
 														paddingBottom: "3px",
 														fontFamily: " 'Montserrat', sans-serif",
 													}}
 												>
 													RETRIBUSI SAMPAH
 												</h2>
-												<div
-													style={{
-														width: "50%",
-														fontSize: ".6em",
-														marginTop: "5px",
-														marginBottom: "5px",
-														paddingLeft: "20px",
-													}}
-												>
-													<div
-														style={{ display: "flex", alignItems: "center" }}
-													>
-														<div
-															style={{
-																width: "30px",
-																fontSize: ".6em",
-																margin: 0,
-																padding: 0,
-															}}
-														>
-															KODE
-														</div>
-														<div
-															style={{
-																fontSize: ".6em",
-																margin: 0,
-																padding: 0,
-															}}
-														>
-															: {item?.kode ?? "-"}
-														</div>
-													</div>
-													<div
-														style={{ display: "flex", alignItems: "center" }}
-													>
-														<div
-															style={{
-																width: "30px",
-																fontSize: ".6em",
-																margin: 0,
-																padding: 0,
-															}}
-														>
-															NAMA
-														</div>
-														<div
-															style={{
-																fontSize: ".6em",
-																margin: 0,
-																padding: 0,
-															}}
-														>
-															: {item?.nama_usaha ?? "-"}
-														</div>
-													</div>
-													<div
-														style={{ display: "flex", alignItems: "center" }}
-													>
-														<div
-															style={{
-																width: "30px",
-																fontSize: ".6em",
-																margin: 0,
-																padding: 0,
-															}}
-														>
-															OBJEK
-														</div>
-														<div
-															style={{
-																fontSize: ".6em",
-																margin: 0,
-																padding: 0,
-															}}
-														>
-															: {item?.jenis_usaha ?? "-"}
-														</div>
-													</div>
-												</div>
+
 												<div
 													style={{
 														border: "2px solid #111",
@@ -266,6 +186,80 @@ export const PrintQrCode = forwardRef((props, ref) => {
 													>
 														KABUPATEN PELALAWAN NO. 1 TAHUN 2016 TENTANG
 														RETRIBUSI DAERAH
+													</div>
+												</div>
+											</div>
+											<div
+												style={{
+													width: "50%",
+													fontSize: ".6em",
+													marginTop: "10px",
+													marginBottom: "5px",
+													fontFamily: "'Poppins', sans-serif",
+													fontWeight: "bold",
+												}}
+											>
+												<div style={{ display: "flex", alignItems: "center" }}>
+													<div
+														style={{
+															width: "30px",
+															fontSize: "1em",
+															margin: 0,
+															padding: 0,
+														}}
+													>
+														KODE
+													</div>
+													<div
+														style={{
+															fontSize: "1em",
+															margin: 0,
+															padding: 0,
+														}}
+													>
+														: {item?.kode ?? "-"}
+													</div>
+												</div>
+												<div style={{ display: "flex", alignItems: "center" }}>
+													<div
+														style={{
+															width: "30px",
+															fontSize: "1em",
+															margin: 0,
+															padding: 0,
+														}}
+													>
+														NAMA
+													</div>
+													<div
+														style={{
+															fontSize: "1em",
+															margin: 0,
+															padding: 0,
+														}}
+													>
+														: {item?.nama_usaha ?? "-"}
+													</div>
+												</div>
+												<div style={{ display: "flex", alignItems: "center" }}>
+													<div
+														style={{
+															width: "30px",
+															fontSize: "1em",
+															margin: 0,
+															padding: 0,
+														}}
+													>
+														OBJEK
+													</div>
+													<div
+														style={{
+															fontSize: "1em",
+															margin: 0,
+															padding: 0,
+														}}
+													>
+														: {item?.jenis_usaha ?? "-"}
 													</div>
 												</div>
 											</div>
