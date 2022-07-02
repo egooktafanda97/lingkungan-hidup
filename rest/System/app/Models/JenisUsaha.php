@@ -11,6 +11,11 @@ class JenisUsaha extends Model
     protected $table = 'type_usaha';
     protected $fillable = [
         "id_tipe_usaha",
+        "session_id",
+        "kode_tipe",
+        "keterangan_sampah",
+        "tipe_sumber_sampah",
+        "zona_tipe",
         "tipe_usaha",
         "keterangan",
         "jumlah_retribusi",

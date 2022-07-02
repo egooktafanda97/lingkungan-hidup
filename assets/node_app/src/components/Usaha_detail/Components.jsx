@@ -493,168 +493,237 @@ const Qr = (props) => {
 	return (
 		<div>
 			{loadData ? (
-				<div
-					style={{
-						width: "100%",
-						height: "350px",
-						background: "red",
-						display: "flex",
-						justifyContent: "space-between",
-					}}
-				>
+				<div className="item">
 					<div
 						style={{
-							width: "60%",
-							padding: "10px",
+							padding: 15,
+							background: "red",
+							width: "100%",
 							height: "100%",
 						}}
 					>
 						<div
 							style={{
-								display: "flex",
-								justifyContent: "center",
-								alignItems: "center",
+								padding: 15,
+								borderRadius: 10,
+								width: "100%",
+								height: "100%",
 								background: "#fff",
-								width: "100%",
-								height: "100%",
-								borderRadius: "5px",
-								flexDirection: "column",
 							}}
 						>
-							<img
-								src={
-									localStorage.getItem("web_url") + "assets/img/logo/logo.png"
-								}
-								style={{ width: "10%" }}
-								alt=""
-							/>
-							<h2
-								style={{
-									fontSize: ".9em",
-									margin: 0,
-									padding: 0,
-									fontWeight: "bold",
-								}}
-							>
-								PEMERINTAHAN KABUPATEN PELALAWAN
-							</h2>
-							<h2
-								style={{
-									fontSize: ".9em",
-									margin: 0,
-									padding: 0,
-									fontWeight: "bold",
-								}}
-							>
-								DINAS LINGKUNGAN HIDUP
-							</h2>
-							<div
-								style={{
-									background: "#111",
-									width: "90%",
-									height: "2px",
-									marginTop: "5px",
-									marginBottom: "5px",
-								}}
-							></div>
-							<h2 style={{ fontSize: ".7em", margin: 0, padding: 0 }}>
-								PERATURAN DAERAH KABUPATEN PELALAWAN
-							</h2>
-							<h2 style={{ fontSize: ".7em", margin: 0, padding: 0 }}>
-								NO. 1 TAHUN 2019 PERUBAHAN ATAS
-							</h2>
-							<h2 style={{ fontSize: ".7em", margin: 0, padding: 0 }}>
-								PERATURAN DAERAH KABUPATEN PELALAWAN NO. 1
-							</h2>
-							<h2 style={{ fontSize: ".7em", margin: 0, padding: 0 }}>
-								TAHUN 2016
-							</h2>
-							<h2 style={{ fontSize: ".7em", margin: 0, padding: 0 }}>
-								TENTANG RETRIBUSI DAERAH
-							</h2>
-						</div>
-					</div>
-					<div
-						style={{
-							width: "40%",
-							padding: "10px",
-							height: "100%",
-						}}
-					>
-						<div
-							style={{
-								display: "flex",
-								justifyContent: "center",
-								alignItems: "center",
-								width: "100%",
-								height: "100%",
-								flexDirection: "column",
-							}}
-						>
-							<h2
-								style={{
-									fontSize: ".7em",
-									margin: 0,
-									padding: 0,
-									fontWeight: "bold",
-									background: "#fff",
-									paddingRight: "5px",
-									paddingLeft: "5px",
-									paddingTop: "3px",
-									paddingBottom: "3px",
-								}}
-							>
-								IURAN RETRIBUSI KEBERSIHAN
-							</h2>
-							<div
-								style={{
-									border: "2px solid #fff",
-									padding: "3px",
-									borderRadius: "5px",
-									display: "flex",
-									justifyContent: "center",
-									alignItems: "center",
-									paddingTop: "10px",
-									paddingLeft: "10px",
-									paddingRight: "10px",
-									background: "#fff",
-									marginTop: "5px",
-									marginBottom: "5px",
-								}}
-							>
-								<div>
-									<QrCode code={props.code} />
+							<div style={{ display: "flex", alignItems: "center" }}>
+								<img
+									style={{ width: "25px", height: "33px" }}
+									src={
+										localStorage.getItem("web_url") + "assets/img/logo/logo.png"
+									}
+									alt=""
+								/>
+								<div style={{ marginLeft: "10px" }}>
+									<div style={{ fontSize: ".4em" }}>
+										<strong style={{ fontFamily: "'Poppins', sans-serif" }}>
+											PEMERINTAH KABUPATEN PELALAWAN
+										</strong>
+									</div>
+									<div style={{ fontSize: ".4em" }}>
+										<strong style={{ fontFamily: "'Poppins', sans-serif" }}>
+											DINAS LINGKUNGAN HIDUP
+										</strong>
+									</div>
+									<div style={{ fontSize: ".4em" }}>
+										<strong style={{ fontFamily: "'Poppins', sans-serif" }}>
+											BIDANG PENGELOLAAN SAMPAH B3 DAN LIMBAH B3
+										</strong>
+									</div>
 								</div>
 							</div>
+
 							<div
 								style={{
-									color: "#fff",
 									display: "flex",
-									flexDirection: "column",
 									justifyContent: "center",
 									alignItems: "center",
+									alignContent: "center",
+									flexDirection: "column",
+									marginTop: "5px",
 								}}
 							>
+								<h2
+									style={{
+										fontSize: ".8em",
+										margin: 0,
+										padding: 0,
+										fontWeight: "bold",
+										color: "#000",
+										paddingRight: "5px",
+										paddingLeft: "5px",
+										paddingTop: "3px",
+										paddingBottom: "3px",
+										fontFamily: " 'Montserrat', sans-serif",
+									}}
+								>
+									Kartu Pembayaran
+								</h2>
 								<h2
 									style={{
 										fontSize: ".7em",
 										margin: 0,
 										padding: 0,
 										fontWeight: "bold",
+										background: "red",
+										color: "#fff",
+										paddingRight: "5px",
+										paddingLeft: "5px",
+										paddingTop: "3px",
+										paddingBottom: "3px",
+										fontFamily: " 'Montserrat', sans-serif",
 									}}
 								>
-									SCAN DISINI
+									RETRIBUSI SAMPAH
 								</h2>
-								<h4
+								<div
 									style={{
-										fontSize: ".5em",
+										width: "50%",
+										fontSize: ".6em",
+										marginTop: "5px",
+										marginBottom: "5px",
+										paddingLeft: "20px",
+									}}
+								>
+									<div style={{ display: "flex", alignItems: "center" }}>
+										<div
+											style={{
+												width: "30px",
+												fontSize: ".6em",
+												margin: 0,
+												padding: 0,
+											}}
+										>
+											KODE
+										</div>
+										<div
+											style={{
+												fontSize: ".6em",
+												margin: 0,
+												padding: 0,
+											}}
+										>
+											: {props?.kode ?? "-"}
+										</div>
+									</div>
+									<div style={{ display: "flex", alignItems: "center" }}>
+										<div
+											style={{
+												width: "30px",
+												fontSize: ".6em",
+												margin: 0,
+												padding: 0,
+											}}
+										>
+											NAMA
+										</div>
+										<div
+											style={{
+												fontSize: ".6em",
+												margin: 0,
+												padding: 0,
+											}}
+										>
+											: {props?.nama_usaha ?? "-"}
+										</div>
+									</div>
+									<div style={{ display: "flex", alignItems: "center" }}>
+										<div
+											style={{
+												width: "30px",
+												fontSize: ".6em",
+												margin: 0,
+												padding: 0,
+											}}
+										>
+											OBJEK
+										</div>
+										<div
+											style={{
+												fontSize: ".6em",
+												margin: 0,
+												padding: 0,
+											}}
+										>
+											: {props?.jenis_usaha ?? "-"}
+										</div>
+									</div>
+								</div>
+								<div
+									style={{
+										border: "2px solid #111",
+										padding: "3px",
+										borderRadius: "5px",
+										display: "flex",
+										justifyContent: "center",
+										alignItems: "center",
+										paddingTop: "10px",
+										paddingLeft: "10px",
+										paddingRight: "10px",
+										background: "#fff",
+										marginTop: "5px",
+										marginBottom: "5px",
+									}}
+								>
+									<div>
+										<QrCode code={props.code} />
+									</div>
+								</div>
+								<h2
+									style={{
+										fontSize: ".7em",
 										margin: 0,
 										padding: 0,
 										fontWeight: "bold",
+										color: "#000",
+										paddingRight: "5px",
+										paddingLeft: "5px",
+										paddingTop: "3px",
+										paddingBottom: "3px",
+										fontFamily: " 'Montserrat', sans-serif",
 									}}
 								>
-									untuk melihat status pembayaran
-								</h4>
+									<strong>SCAN DISINI</strong> untuk melihat status
+								</h2>
+								<div>
+									<div
+										style={{
+											textAlign: "center",
+											fontSize: ".5em",
+											fontFamily: "'Poppins', sans-serif",
+											fontWeight: "bold",
+										}}
+									>
+										PERATURAN DAERAH KABUPATEN PELALAWAN NO. 1 TAHUN 2019
+									</div>
+									<div
+										style={{
+											textAlign: "center",
+											fontSize: ".5em",
+											fontFamily: "'Poppins', sans-serif",
+											fontWeight: "bold",
+										}}
+									>
+										PERUBAHAN ATAS PERATURAN DAERAH
+									</div>
+
+									<div
+										style={{
+											textAlign: "center",
+											fontSize: ".5em",
+											fontFamily: "'Poppins', sans-serif",
+											fontWeight: "bold",
+										}}
+									>
+										KABUPATEN PELALAWAN NO. 1 TAHUN 2016 TENTANG RETRIBUSI
+										DAERAH
+									</div>
+								</div>
 							</div>
 						</div>
 					</div>

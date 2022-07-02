@@ -63,6 +63,7 @@ export default function Components() {
 	const [IsNews, set__IsNews__] = useState(false);
 	const [dataJurupungut, setDataJurupungut] = useState([]);
 	const [selectedFilter, setSelectedFilter] = useState(null);
+	const [tarifSelected, setSelectedTarif] = useState(null);
 	// ------------------------------------------------------
 	const componentRef = useRef();
 	const componentRefUsaha = useRef();
@@ -100,7 +101,7 @@ export default function Components() {
 	useEffect(() => {}, [dataQrcode]);
 	const onDelete = (id) => {
 		onDeleted("usaha/delete/" + id, (res) => {
-			setterData();
+			getDataByFilter();
 			reset();
 		});
 	};
@@ -154,7 +155,7 @@ export default function Components() {
 	const dataJuru = (callback) => {
 		UserGetUser((res) => {
 			setDataJurupungut(res);
-			setterData(res[0].id, () => {
+			setterData(res[0]?.id ?? null, () => {
 				setLoadData(true);
 			});
 		});
@@ -173,7 +174,16 @@ export default function Components() {
 		GetDataJenisUsaha((res) => {
 			const result = [];
 			res.map((val) => {
-				result.push({ value: val.id_tipe_usaha, label: val.tipe_usaha });
+				result.push({
+					value: val.id_tipe_usaha,
+					label:
+						"(" +
+						val.kode_tipe +
+						") " +
+						val.tipe_usaha +
+						" -> " +
+						val.tipe_sumber_sampah,
+				});
 			});
 			setJenis(result);
 			callback(result);
@@ -204,23 +214,66 @@ export default function Components() {
 		if (idUsaha != null) {
 			form_data.append("id_usaha", idUsaha);
 		}
-		actionReq(form_data, (res) => {
-			$(".btn-form-submit").removeClass("loading");
-			if (dataJurupungut.length == 0) {
+		actionReq(form_data, (result) => {
+			if (dataJurupungut.length > 0) {
 				UserGetUser((res) => {
 					setDataJurupungut(res);
-					setterData(res[0].id, () => {
+					setterData(res[0]?.id ?? null, () => {
+						swal({
+							title: "Sukses",
+							text: "",
+							icon: "success",
+							button: "Oke",
+						});
 						setLoadData(true);
+						$(".btn-form-submit").removeClass("loading");
 					});
 				});
 			} else if (selectedFilter != undefined && selectedFilter != null) {
 				setterData(selectedFilter, () => {
+					swal({
+						title: "Sukses",
+						text: "",
+						icon: "success",
+						button: "Oke",
+					});
+					setLoadData(true);
+					$(".btn-form-submit").removeClass("loading");
 					setLoadData(true);
 				});
 			}
 			ModalInpClose();
 			reset();
 		});
+	};
+	const getDataByFilter = () => {
+		if (dataJurupungut.length > 0) {
+			UserGetUser((res) => {
+				setDataJurupungut(res);
+				setterData(res[0]?.id ?? null, () => {
+					swal({
+						title: "Sukses",
+						text: "",
+						icon: "success",
+						button: "Oke",
+					});
+					setLoadData(true);
+					$(".btn-form-submit").removeClass("loading");
+				});
+			});
+		} else if (selectedFilter != undefined && selectedFilter != null) {
+			setterData(selectedFilter, () => {
+				swal({
+					title: "Sukses",
+					text: "",
+					icon: "success",
+					button: "Oke",
+				});
+				setLoadData(true);
+				$(".btn-form-submit").removeClass("loading");
+				setLoadData(true);
+			});
+		}
 	};
 	const reset = () => {
 		$("[name='kode']").val("");
@@ -448,12 +501,12 @@ export default function Components() {
 									</label>
 									<LoadingAnimate visible={!loadZona}>
 										{/* <Select
-                      value={zona}
-                      options={optZona}
-                      onChange={(opt) => {
-                        setZona(opt);
-                      }}
-                    /> */}
+										value={zona}
+										options={optZona}
+										onChange={(opt) => {
+											setZona(opt);
+										}}
+										/> */}
 										<Creatable
 											isClearable={true}
 											options={optZona}
@@ -490,7 +543,7 @@ export default function Components() {
 									</LoadingAnimate>
 								</div>
 							</div>
-							<div className="col-lg-6">
+							<div className="col-lg-12">
 								<div className="form-group">
 									<label className="label" htmlFor="">
 										Tarif Retribusi
@@ -512,7 +565,6 @@ export default function Components() {
 									<label className="label" htmlFor="">
 										Status
 									</label>
-
 									<Select
 										options={[
 											{ value: "aktif", label: "aktif" },

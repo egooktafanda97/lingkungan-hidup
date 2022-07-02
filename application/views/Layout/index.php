@@ -87,7 +87,7 @@
                             <a href="#" class="has-dropdown"><i class="ion ion-ios-albums-outline"></i><span>Usaha</span></a>
                             <ul class="menu-dropdown">
                                 <li class="<?= $this->uri->segment(1) == "Usaha" && $this->uri->segment(2) == "index" ? "active" : "" ?>"><a href="<?= base_url('Usaha/index') ?>"><i class=" ion ion-ios-circle-outline"></i>Data Usaha</a></li>
-                                <li class="<?= $this->uri->segment(1) == "TypeUsaha" && $this->uri->segment(2) == "index" ? "active" : "" ?>"><a href="<?= base_url('TypeUsaha/index') ?>"><i class=" ion ion-ios-circle-outline"></i>Tarif</a></li>
+                                <li class="<?= $this->uri->segment(1) == "TypeUsaha" && $this->uri->segment(2) == "index" ? "active" : "" ?>"><a href="<?= base_url('TypeUsaha/index') ?>"><i class=" ion ion-ios-circle-outline"></i>Tipe Usaha</a></li>
                             </ul>
                         </li>
                         <li class="<?= $this->uri->segment(1) == "Retribusi" || $this->uri->segment(1) == "RetribusiNpwrd" || $this->uri->segment(1) == "Zona"  ? "active" : "" ?>">
