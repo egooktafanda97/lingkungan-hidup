@@ -266,8 +266,8 @@ export const ComponentToPrint = forwardRef((props, ref) => {
 							</td>
 						</tr>
 						<tr>
-							<td colspan="1">Dengan Huruf :</td>
-							<td colspan="3">
+							<td colspan="2">Dengan Huruf :</td>
+							<td colspan="2">
 								{angkaTerbilang(
 									JSON.parse(props?.values?.retribusi ?? "[]").reduce(
 										(accumulator, object) => {
