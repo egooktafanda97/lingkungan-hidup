@@ -91,15 +91,15 @@
                             <ul class="menu-dropdown">
                                 <li class="<?= $this->uri->segment(1) == "Usaha" && $this->uri->segment(2) == "index" ? "active" : "" ?>"><a href="<?= base_url('Usaha/index') ?>"><i class=" ion ion-ios-circle-outline"></i>Data Usaha</a></li>
                                 <li class="<?= $this->uri->segment(1) == "TypeUsaha" && $this->uri->segment(2) == "index" ? "active" : "" ?>"><a href="<?= base_url('TypeUsaha/index') ?>"><i class=" ion ion-ios-circle-outline"></i>Tipe Usaha</a></li>
+                                <li class="<?= $this->uri->segment(1) == "Zona" && $this->uri->segment(2) == "index" ? "active" : "" ?>"><a href="<?= base_url('Zona/index') ?>"><i class="ion ion-ios-circle-outline"></i>Zona</a></li>
                             </ul>
                         </li>
                         <li class="<?= $this->uri->segment(1) == "Retribusi" || $this->uri->segment(1) == "RetribusiNpwrd" || $this->uri->segment(1) == "Zona"  ? "active" : "" ?>">
                             <a href="#" class="has-dropdown"><i class="ion ion-ios-albums-outline"></i><span>Retribusi</span></a>
                             <ul class="menu-dropdown">
                                 <li class="<?= $this->uri->segment(1) == "Retribusi" && $this->uri->segment(2) == "index" ? "active" : "" ?>"><a href="<?= base_url('Retribusi/index') ?>"><i class="ion ion-ios-circle-outline"></i>Laporan Retribusi</a></li>
-                                <li class="<?= $this->uri->segment(1) == "RetribusiNpwrd" && $this->uri->segment(2) == "index" ? "active" : "" ?>"><a href="<?= base_url('RetribusiNpwrd/index') ?>"><i class="ion ion-ios-circle-outline"></i>Retribusi Perusahaan</a></li>
+                                <li class="<?= $this->uri->segment(1) == "RetribusiNpwrd" && $this->uri->segment(2) == "index" ? "active" : "" ?>"><a href="<?= base_url('RetribusiNpwrd/index') ?>"><i class="ion ion-ios-circle-outline"></i>NPWRD</a></li>
                                 <!-- <li><a href="components.html"><i class="ion ion-ios-circle-outline"></i> Informasi Peta</a></li> -->
-                                <li class="<?= $this->uri->segment(1) == "Zona" && $this->uri->segment(2) == "index" ? "active" : "" ?>"><a href="<?= base_url('Zona/index') ?>"><i class="ion ion-ios-circle-outline"></i>Zona</a></li>
                             </ul>
                         </li>
                         <li class="<?= $this->uri->segment(1) == "Retribusi" || $this->uri->segment(1) == "Timbangan" ? "active" : "" ?>">
