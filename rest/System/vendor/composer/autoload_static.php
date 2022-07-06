@@ -602,6 +602,7 @@ class ComposerStaticInit0d5bf941dcfe9dcd0406ff325bb0f1c1
         'App\\Http\\Middleware\\TrustProxies' => __DIR__ . '/../..' . '/app/Http/Middleware/TrustProxies.php',
         'App\\Http\\Middleware\\VerifyCsrfToken' => __DIR__ . '/../..' . '/app/Http/Middleware/VerifyCsrfToken.php',
         'App\\Imports\\UsahaImport' => __DIR__ . '/../..' . '/app/Imports/UsahaImport.php',
+        'App\\Models\\Dlh' => __DIR__ . '/../..' . '/app/Models/Dlh.php',
         'App\\Models\\HistorySaldo' => __DIR__ . '/../..' . '/app/Models/HistorySaldo.php',
         'App\\Models\\JenisUsaha' => __DIR__ . '/../..' . '/app/Models/JenisUsaha.php',
         'App\\Models\\Npwrd' => __DIR__ . '/../..' . '/app/Models/Npwrd.php',

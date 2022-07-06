@@ -18,11 +18,13 @@ class RetribusiNpwrd extends Model
         "kode_rekening",
         "tahun",
         "bulan",
+        "masa_retribusi",
         "jenis_retribusi",
         "periode_mulai",
         "periode_sampai",
         "jumlah",
-        "tgl_setor"
+        "tgl_setor",
+        "retribusi"
     ];
     // join npwrd
     public function JoinNpwrd()

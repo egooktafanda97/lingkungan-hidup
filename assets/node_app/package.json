@@ -22,6 +22,7 @@
   "author": "ego",
   "license": "ISC",
   "dependencies": {
+    "@develoka/angka-terbilang-js": "^1.4.2",
     "@faker-js/faker": "^6.1.2",
     "@sweetalert/with-react": "^0.1.1",
     "faker": "^6.6.6",

@@ -21,7 +21,6 @@ class Npwrd extends Model
         "nama",
         "alamat",
         "menyetoran_berdasarkan",
-        "masa_retribusi",
         "kode_rekening",
         "foto",
         "didata"

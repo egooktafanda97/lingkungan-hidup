@@ -43,10 +43,13 @@
                             <div class="d-sm-none d-lg-inline-block">Admin</div>
                         </a>
                         <div class="dropdown-menu dropdown-menu-right">
-                            <a href="profile.html" class="dropdown-item has-icon">
+                            <a href="<?= base_url('User/profile') ?>" class="dropdown-item has-icon">
                                 <i class="ion ion-android-person"></i> Profile
                             </a>
-                            <a href="#" class="dropdown-item has-icon">
+                            <a href="<?= base_url('User/index') ?>" class="dropdown-item has-icon">
+                                <i class="ion ion-android-person"></i> Management User
+                            </a>
+                            <a style="cursor: pointer;" class="dropdown-item has-icon logout">
                                 <i class="ion ion-log-out"></i> Logout
                             </a>
                         </div>
@@ -170,6 +173,21 @@
     <script src="<?= base_url('assets/template/') ?>dist/js/demo.js"></script>
     <script src="<?= base_url('assets/lib/jquery-dynatable/jquery.dynatable.js') ?>"></script>
     <?php !empty($script) ? $this->load->view("page/" . $script) : "" ?>
+    <script>
+        $(".logout").click(function() {
+            localStorage.removeItem("token");
+            window.location.href = "<?= base_url('Login/index') ?>";
+        });
+        const dataInit = localStorage.getItem("user");
+
+        if (dataInit) {
+            const data = JSON.parse(dataInit);
+            console.log(data);
+            $(".user-name").html(data.nama);
+            $(".user-role").html(data.role);
+            $(".sidebar-user-picture>img").attr("src", "<?= base_url('rest/public/img/users/') ?>" + data.foto);
+        }
+    </script>
 
 
 </body>

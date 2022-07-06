@@ -22,6 +22,7 @@ class NpwrdController extends Controller
     public function create(Request $request)
     {
         $data = $request->all();
+
         if ($data['action'] == "create") {
             $sessionId = Validator::make($data, [
                 'session_id' => 'required|unique:session_id',
@@ -39,7 +40,7 @@ class NpwrdController extends Controller
                     "nama" => 'required',
                     "alamat" => 'nullable',
                     "menyetoran_berdasarkan" => 'required',
-                    "masa_retribusi" => 'required',
+
                 ];
                 $validator = Validator::make($request->all(), $rolesValidate);
                 if ($validator->fails()) {
@@ -60,13 +61,15 @@ class NpwrdController extends Controller
             $ret_Npwrd = [
                 "npwrd" => 'required',
                 "nama_penyetor" => 'required',
-                "kode_rekening" => 'required',
+                "kode_rekening" => 'nullable',
                 "tahun" => 'required',
                 "bulan" => 'required',
-                "jenis_retribusi" => 'required',
+                "masa_retribusi" => 'required',
+                "jenis_retribusi" => 'nullable',
                 "periode_mulai" => 'required',
                 "periode_sampai" => 'required',
-                "jumlah" => 'required',
+                "jumlah" => 'nullable',
+                "retribusi" => 'required',
             ];
             $validator1 = Validator::make($request->all(), $ret_Npwrd);
             if ($validator1->fails()) {
@@ -74,17 +77,24 @@ class NpwrdController extends Controller
             }
             $saldoAwalAdmin   = User::where("role", "SUPER_ADMIN")->first()->saldo;
             try {
+                $retribusi = !empty($request->retribusi) ? json_decode($request->retribusi, true) : [];
+                $jml = array_reduce($retribusi, function ($carry, $item) {
+                    return $carry + $item['jumlah'];
+                });
+
+                $saldoBaru = (float) $saldoAwalAdmin + (float) $jml;
                 $pengutipan = RetribusiNpwrd::create(array_merge($validator1->validated(), [
                     "id_admin" =>  auth()->user()->id,
+                    "jumlah" => $jml,
                     "tgl_setor" => date("Y-m-d")
                 ]));
-                User::where("role", "SUPER_ADMIN")->update(["saldo" => $saldoAwalAdmin + $pengutipan->jumlah]);
+                User::where("role", "SUPER_ADMIN")->update(["saldo" => $saldoBaru]);
 
                 RiwayatRetribusiPrusahaan::create([
                     "id_retribusi" => $pengutipan->id_retribusi,
                     "id_admin" => auth()->user()->id,
                     "id_npwrd" => Npwrd::where("npwrd", $request->npwrd)->first()->id_npwrd,
-                    "jumlah" => $pengutipan->jumlah,
+                    "jumlah" =>  $jml,
                     "saldo_awal" => $saldoAwalAdmin,
                     "saldo_akhir" => User::where("role", "SUPER_ADMIN")->first()->saldo,
                 ]);
@@ -103,20 +113,27 @@ class NpwrdController extends Controller
                         "nama" => 'required',
                         "alamat" => 'nullable',
                         "menyetoran_berdasarkan" => 'required',
-                        "masa_retribusi" => 'required',
+
                     ];
+
                     // ------------------------------------------------------------
                     $ret_Npwrd = [
                         "npwrd" => 'required',
-                        "kode_rekening" => 'required',
+                        "kode_rekening" => 'nullable',
                         "tahun" => 'required',
                         "bulan" => 'required',
-                        "jenis_retribusi" => 'required',
+                        "masa_retribusi" => 'required',
+                        "jenis_retribusi" => 'nullable',
                         "periode_mulai" => 'required',
                         "periode_sampai" => 'required',
-                        "jumlah" => 'required',
+                        "jumlah" => 'nullable',
+                        "retribusi" => 'required',
                     ];
 
+                    $retribusi = !empty($request->retribusi) ? json_decode($request->retribusi, true) : [];
+                    $jml = array_reduce($retribusi, function ($carry, $item) {
+                        return $carry + $item['jumlah'];
+                    });
                     $validator = Validator::make($request->all(), $rolesValidate);
                     if ($validator->fails()) {
                         return response()->json($validator->errors(), 422);
@@ -135,13 +152,14 @@ class NpwrdController extends Controller
                         Npwrd::where('npwrd', $get->npwrd)->update($data);
                         RetribusiNpwrd::where("id_retribusi", $get->id_retribusi)->update(array_merge($validator1->validated(), [
                             "id_admin" =>  auth()->user()->id,
+                            "jumlah" => $jml,
                         ]));
                         $getRiwayat = RiwayatRetribusiPrusahaan::where("id_retribusi", $get["id_retribusi"])->first();
                         if ($getRiwayat) {
-                            $calculate = (float) User::where("role", "SUPER_ADMIN")->first()->saldo - ((float) $getRiwayat->saldo_awal - (float) $getRiwayat->saldo_akhir);
-                            User::where("role", "SUPER_ADMIN")->update(["saldo" => (float) $calculate + (float) $ret_Npwrd["jumlah"]]);
+                            $calculate = (float) User::where("role", "SUPER_ADMIN")->first()->saldo - (float) $getRiwayat->jumlah;
+                            User::where("role", "SUPER_ADMIN")->update(["saldo" => (float) $calculate + (float) $jml]);
                             RiwayatRetribusiPrusahaan::where("id_retribusi", $get["id_retribusi"])->update([
-                                "jumlah" => $ret_Npwrd["jumlah"],
+                                "jumlah" => $jml,
                                 "saldo_awal" => $calculate,
                                 "saldo_akhir" => User::where("role", "SUPER_ADMIN")->first()->saldo,
                             ]);
@@ -152,7 +170,7 @@ class NpwrdController extends Controller
                     }
                 }
             } catch (\Throwable $th) {
-                return response()->json(["status" => false, "response" => $e, "msg" => "data gagal di update"], 401);
+                return response()->json(["status" => false, "response" => $th, "msg" => "data gagal di update"], 401);
             }
         }
     }

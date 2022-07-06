@@ -21,6 +21,7 @@ Route::group([
 
 ], function ($router) {
     Route::post('/login', [AuthController::class, 'login']);
+    Route::post('/login-admin', [AuthController::class, 'loginAdmin']);
     Route::post('/register', [AuthController::class, 'register']);
     Route::post('/logout', [AuthController::class, 'logout']);
     Route::post('/refresh', [AuthController::class, 'refresh']);
@@ -35,6 +36,12 @@ Route::group([
     Route::post('/storSaldo', [\App\Http\Controllers\HistorySaldoController::class, 'UpSaldo']);
     Route::get('/getRiwayatSaldo/{id_user?}', [\App\Http\Controllers\HistorySaldoController::class, 'getRiwayatSaldo']);
     Route::get('/getRiwayatSaldoByAuth', [\App\Http\Controllers\HistorySaldoController::class, 'getRiwayatSaldoByAuth']);
+    // userGetAdmin
+    Route::get('/userGetAdmin', [AuthController::class, 'userGetAdmin']);
+    // deleteUser
+    Route::delete('/deleteUser/{id}', [AuthController::class, 'deleteUser']);
+    // me
+    Route::get('/me', [AuthController::class, 'me']);
 });
 
 

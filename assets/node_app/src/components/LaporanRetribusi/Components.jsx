@@ -216,7 +216,7 @@ export default function Components() {
 								<option value="">Pilih Tipe Usaha</option>
 								{tipe.map((res) => {
 									return (
-										<option value={res.id_tipe_usaha}>{res.tipe_usaha}</option>
+										<option value={res.id_tipe_usaha}>{res.kode_tipe}</option>
 									);
 								})}
 							</select>
