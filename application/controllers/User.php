@@ -6,18 +6,18 @@ class User extends CI_Controller
     public function index()
     {
         $data = [
-            "page" => "user/index",
-            "style" => "user/style",
-            "script" => "user/script",
+            "page" => "User/index",
+            "style" => "User/style",
+            "script" => "User/script",
         ];
         $this->load->view('Layout/index', $data);
     }
     public function profile()
     {
         $data = [
-            "page" => "profile/index",
-            "style" => "profile/style",
-            "script" => "profile/script",
+            "page" => "Profile/index",
+            "style" => "Profile/style",
+            "script" => "Profile/script",
         ];
         $this->load->view('Layout/index', $data);
     }
