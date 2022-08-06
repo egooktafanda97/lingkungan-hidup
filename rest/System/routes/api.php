@@ -158,6 +158,8 @@ Route::group([
 
 ], function ($router) {
     Route::post('/ExcelImport', [\App\Http\Controllers\ImportController::class, 'imports']);
+    Route::post('/ExcelImportDataDua', [\App\Http\Controllers\ImportController::class, 'importsDataDua']);
+    Route::post('/ExcelImportTipeUsahaImport', [\App\Http\Controllers\ImportController::class, 'TipeUsahaImport']);
 });
 // ----------------------------------------------------------------------------------------
 
