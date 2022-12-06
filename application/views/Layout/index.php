@@ -86,7 +86,7 @@
                                 <li class="<?= $this->uri->segment(2) == "laporan" ? "active" : "" ?>"><a href="<?= base_url('Jurupungut/laporan') ?>"><i class=" ion ion-ios-circle-outline"></i>Laporan Jurupungut</a></li>
                             </ul>
                         </li>
-                        <li class="<?= $this->uri->segment(1) == "Usaha" ||  $this->uri->segment(1) == "TypeUsaha" ? "active" : "" ?>">
+                        <li class="<?= $this->uri->segment(1) == "Usaha" ||  $this->uri->segment(1) == "TypeUsaha"  || $this->uri->segment(1) == "Zona"  ? "active" : "" ?>">
                             <a href="#" class="has-dropdown"><i class="ion ion-ios-albums-outline"></i><span>Usaha</span></a>
                             <ul class="menu-dropdown">
                                 <li class="<?= $this->uri->segment(1) == "Usaha" && $this->uri->segment(2) == "index" ? "active" : "" ?>"><a href="<?= base_url('Usaha/index') ?>"><i class=" ion ion-ios-circle-outline"></i>Data Usaha</a></li>
@@ -94,7 +94,7 @@
                                 <li class="<?= $this->uri->segment(1) == "Zona" && $this->uri->segment(2) == "index" ? "active" : "" ?>"><a href="<?= base_url('Zona/index') ?>"><i class="ion ion-ios-circle-outline"></i>Wilayah</a></li>
                             </ul>
                         </li>
-                        <li class="<?= $this->uri->segment(1) == "Retribusi" || $this->uri->segment(1) == "RetribusiNpwrd" || $this->uri->segment(1) == "Zona"  ? "active" : "" ?>">
+                        <li class="<?= $this->uri->segment(1) == "Retribusi" || $this->uri->segment(1) == "RetribusiNpwrd" ? "active" : "" ?>">
                             <a href="#" class="has-dropdown"><i class="ion ion-ios-albums-outline"></i><span>Retribusi</span></a>
                             <ul class="menu-dropdown">
                                 <li class="<?= $this->uri->segment(1) == "Retribusi" && $this->uri->segment(2) == "index" ? "active" : "" ?>"><a href="<?= base_url('Retribusi/index') ?>"><i class="ion ion-ios-circle-outline"></i>Laporan Retribusi</a></li>
