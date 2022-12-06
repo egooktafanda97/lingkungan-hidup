@@ -38,11 +38,11 @@
             </li>
 
             <li class="<?= $this->uri->segment(1) == "Retribusi" && $this->uri->segment(2) == "index" ? "active" : "" ?>">
-                <a href="<?= base_url('Retribusi/index') ?>"><i class="ion ion-ios-circle-outline"></i><strong>LAPORAN RETRIBUSI</strong></a>
+                <a href="<?= base_url('Retribusi/index') ?>"><i class="fa fa-file"></i><strong>LAPORAN RETRIBUSI</strong></a>
             </li>
 
             <li class="<?= $this->uri->segment(1) == "RetribusiNpwrd" && $this->uri->segment(2) == "index" ? "active" : "" ?>">
-                <a href="<?= base_url('RetribusiNpwrd/index') ?>"><i class="ion ion-ios-circle-outline"></i><strong>NPWRD</strong></a>
+                <a href="<?= base_url('RetribusiNpwrd/index') ?>"><i class="fa fa-industry"></i><strong>NPWRD</strong></a>
             </li>
 
             <!-- <li class="active">
