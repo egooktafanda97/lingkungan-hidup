@@ -5,11 +5,14 @@ namespace App\Models;
 use App\Helpers\Helpers;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\SoftDeletes;
 
 class Usaha extends Model
 {
     use HasFactory;
+    use SoftDeletes;
     protected $table = 'usaha';
+    protected $dates = ['deleted_at'];
     protected $fillable = [
         "id_jurupungut",
         "kode",
@@ -98,7 +101,7 @@ class Usaha extends Model
     }
 
     //get data join
-    public function getData($type, $param = [])
+    public static function getData($type, $param = [])
     {
         try {
             switch ($type) {

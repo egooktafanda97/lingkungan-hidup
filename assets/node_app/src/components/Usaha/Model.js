@@ -14,7 +14,7 @@ import { useLayer } from "react-laag";
 import { motion, AnimatePresence } from "framer-motion";
 import { Build, Colom } from "./setTable";
 
-const actionReq = async (data, reponse) => {
+const actionReq = async (data, reponse, cll = null) => {
 	const post = await axios
 		.post(localStorage.getItem("base_url") + "api/usaha/create", data)
 		.catch((err) => {
@@ -23,12 +23,6 @@ const actionReq = async (data, reponse) => {
 			toastr.error("data gagal di simpan");
 		});
 	if (post != undefined && post.status == 200) {
-		swal({
-			title: "Sukses",
-			text: "",
-			icon: "success",
-			button: "Oke",
-		});
 		reponse(post.data);
 	}
 };

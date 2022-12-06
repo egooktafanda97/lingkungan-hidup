@@ -17,6 +17,7 @@ export default function Components() {
 			Login(form_data, (res) => {
 				if (res.status == 200) {
 					localStorage.setItem("token", res.data.access_token);
+					localStorage.setItem("user", JSON.stringify(res.data.user));
 					window.location.href = localStorage.getItem("web_url") + "Dashboard";
 				} else {
 					setErr(res.data);
@@ -28,7 +29,7 @@ export default function Components() {
 	const Login = async (data, response) => {
 		setLoading(true);
 		const Logs = await axios
-			.post(localStorage.getItem("base_url") + "api/auth/login", data)
+			.post(localStorage.getItem("base_url") + "api/auth/login-admin", data)
 			.catch((err) => {
 				response(err.response);
 			});

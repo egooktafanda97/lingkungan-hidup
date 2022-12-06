@@ -142,6 +142,7 @@ class UsahaController extends Controller
     {
         try {
             $data = Usaha::where('id_usaha', $del)->update(["visible" => false, "date_visible" => date("Y-m-d H:i:s")]);
+            $data = Usaha::where('id_usaha', $del)->delete();
             return response()->json([
                 'message' => 'User successfully deleted',
                 'user' => $data

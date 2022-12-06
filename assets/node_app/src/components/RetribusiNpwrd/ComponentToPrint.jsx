@@ -1,7 +1,8 @@
 import moment from "moment";
 import React, { forwardRef, useRef, useEffect } from "react";
 import { rupiah } from "../../utils/functionComponent";
-import { constan_data } from "../../utils/data";
+import constan_data from "../../../../constant/data.json";
+import angkaTerbilang from "@develoka/angka-terbilang-js";
 export const ComponentToPrint = forwardRef((props, ref) => {
 	return (
 		<div ref={ref}>
@@ -10,7 +11,7 @@ export const ComponentToPrint = forwardRef((props, ref) => {
 					<div className="logo">
 						<img
 							src={localStorage.getItem("web_url") + "assets/img/logo/logo.png"}
-							style={{ width: "100%", height: "100%" }}
+							style={{ width: "80%", height: "100%" }}
 							alt=""
 						/>
 					</div>
@@ -52,12 +53,12 @@ export const ComponentToPrint = forwardRef((props, ref) => {
 								<td>{props.values?.nama_penyetor ?? "-"}</td>
 							</tr>
 							<tr>
-								<td>Npwrd</td>
+								<td>NPWRD</td>
 								<td>:</td>
 								<td>{props.values?.join_npwrd?.npwrd ?? "-"}</td>
 							</tr>
 							<tr>
-								<td>Nama Usaha / Perusahaan</td>
+								<td>Bidang Usaha</td>
 								<td>:</td>
 								<td>{props.values?.join_npwrd?.nama ?? "-"}</td>
 							</tr>
@@ -67,10 +68,12 @@ export const ComponentToPrint = forwardRef((props, ref) => {
 								<td>{props.values?.join_npwrd?.alamat ?? "-"}</td>
 							</tr>
 						</table>
-						Telah memenuhi kewajiban dalam membayar Retrbusi untuk 2022 periode
-						{props.values?.periode_mulai ?? ""} s/d{" "}
-						{props.values?.periode_sampai ?? ""} dengan rincian sebagai berikut
-						:
+						Telah memenuhi kewajiban dalam membayar Retribusi Pelayanan
+						Persampahan / Kebersihan untuk periode{" "}
+						{moment(props.values?.periode_mulai).format("DD MMMM YYYY") ?? ""}{" "}
+						s/d{" "}
+						{moment(props.values?.periode_sampai).format("DD MMMM YYYY") ?? ""}{" "}
+						dengan rincian sebagai berikut :
 						<table
 							style={{
 								width: "100%",
@@ -80,12 +83,15 @@ export const ComponentToPrint = forwardRef((props, ref) => {
 						>
 							<tr>
 								<td style={{ width: "3%" }}>1.</td>
-								<td style={{ width: "40%" }}>Ret. Persampahan / Kebersihan</td>
+								<td style={{ width: "40%" }}>
+									Retribusi Pelayanan Persampahan / Kebersihan
+								</td>
 								<td style={{ width: "3%" }}>:</td>
 								<td>{rupiah("" + props.values?.jumlah ?? 0, "Rp")}</td>
 							</tr>
 						</table>
-						Demikian surat Keterangan ini di buat hanya berlaku untuk 1 kali.
+						Demikian perihal surat Keterangan ini di buat hanya berlaku untuk 1
+						kali.
 						<div className="footer-signature">
 							<div></div>
 							<div className="sig">
@@ -93,10 +99,15 @@ export const ComponentToPrint = forwardRef((props, ref) => {
 								an. KEPALA DINAS LINGKUNGAN HIDUP <br />
 								KABUPATEN PELALAWAN
 								<br />
+								BENDAHARA PENERIMA
 								<br />
 								<br />
 								<br />
-								<u>{props.values?.join_npwrd?.nama_penyetor ?? "-"}</u>
+								<br />
+								<div>
+									<u>{constan_data?.bendahara?.nama ?? "-"}</u>
+								</div>
+								<div>{constan_data?.bendahara?.nip ?? "-"}</div>
 							</div>
 						</div>
 					</div>
@@ -166,7 +177,7 @@ export const ComponentToPrint = forwardRef((props, ref) => {
 								}}
 							>
 								No. URUT <br />
-								{props.values?.join_npwrd.no_urut ?? "-"}
+								{props.values?.join_npwrd?.no_urut ?? "-"}
 							</div>
 						</td>
 					</tr>
@@ -199,7 +210,11 @@ export const ComponentToPrint = forwardRef((props, ref) => {
 									<tr>
 										<td>Masa Retribusi</td>
 										<td>:</td>
-										<td>{props.values?.join_npwrd?.masa_retribusi ?? "-"}</td>
+										<td>
+											{moment(props.values?.masa_retribusi ?? "-").format(
+												"MMMM YYYY"
+											)}
+										</td>
 									</tr>
 								</table>
 							</div>
@@ -217,11 +232,53 @@ export const ComponentToPrint = forwardRef((props, ref) => {
 						</tr>
 					</thead>
 					<tbody>
+						{JSON.parse(props?.values?.retribusi ?? "[]").map((item, index) => (
+							<tr key={index}>
+								<td style={{ width: "30px", paddingLeft: "5px" }}>
+									{index + 1}
+								</td>
+								<td style={{ paddingLeft: "5px" }}>
+									{item.kode_rekening ?? "-"}
+								</td>
+								<td style={{ paddingLeft: "5px" }}>
+									{item.jenis_retribusi ?? "-"}
+								</td>
+								<td style={{ paddingLeft: "5px" }}>
+									{rupiah("" + item.jumlah ?? 0, "Rp")}
+								</td>
+							</tr>
+						))}
 						<tr>
-							<td>1</td>
-							<td>{props.values?.kode_rekening ?? "-"}</td>
-							<td>{props.values?.jenis_retribusi ?? "-"}</td>
-							<td>{rupiah("" + props.values?.jumlah ?? 0, "Rp")}</td>
+							<td colspan="3">Total Storan Retribusi</td>
+							<td>
+								{rupiah(
+									"" +
+										JSON.parse(props?.values?.retribusi ?? "[]").reduce(
+											(accumulator, object) => {
+												return (
+													parseFloat(accumulator) + parseFloat(object.jumlah)
+												);
+											},
+											0
+										),
+									"Rp"
+								)}
+							</td>
+						</tr>
+						<tr>
+							<td colspan="2">Dengan Huruf :</td>
+							<td colspan="2">
+								{angkaTerbilang(
+									JSON.parse(props?.values?.retribusi ?? "[]").reduce(
+										(accumulator, object) => {
+											return (
+												parseFloat(accumulator) + parseFloat(object.jumlah)
+											);
+										},
+										0
+									)
+								)}
+							</td>
 						</tr>
 						<tr>
 							<td colSpan={4}>
@@ -236,7 +293,10 @@ export const ComponentToPrint = forwardRef((props, ref) => {
 														verticalAlign: "top",
 													}}
 												>
-													<p>Kolom Untuk Teraan Kas Register / Tanda Tngan</p>
+													<p className="p-0 m-0">
+														Kolom Untuk Teraan Kas Register <br />
+														Kepala Bidang
+													</p>
 												</td>
 												<td
 													style={{
@@ -246,8 +306,8 @@ export const ComponentToPrint = forwardRef((props, ref) => {
 													}}
 												>
 													<p>
-														Diterima Oleh Petugas Penerima <br />
-														Tanda Tangan
+														Diterima Oleh <br />
+														Bendahara Penerima
 													</p>
 												</td>
 												<td
@@ -301,10 +361,10 @@ export const ComponentToPrint = forwardRef((props, ref) => {
 														verticalAlign: "top",
 													}}
 												>
-													<u>{constan_data.npwrdKomomTTd.nama ?? "-"}</u>
+													<u>{constan_data.kabit.nama ?? "-"}</u>
 													<br />
 													<font data-get="nip" style={{ fontSize: ".8em" }}>
-														{constan_data.npwrdKomomTTd.nip ?? "-"}
+														{constan_data.kabit.nip ?? "-"}
 													</font>
 												</td>
 												<td
@@ -314,10 +374,10 @@ export const ComponentToPrint = forwardRef((props, ref) => {
 														verticalAlign: "top",
 													}}
 												>
-													<u>{props.values?.join_admin?.nama ?? "-"}</u>
+													<u>{constan_data.bendahara?.nama ?? "-"}</u>
 													<br />
 													<font data-get="nip" style={{ fontSize: ".8em" }}>
-														{props.values?.join_admin?.nip ?? "-"}
+														{constan_data.bendahara?.nip ?? "-"}
 													</font>
 												</td>
 												<td
@@ -327,7 +387,7 @@ export const ComponentToPrint = forwardRef((props, ref) => {
 														verticalAlign: "top",
 													}}
 												>
-													{`...............`}
+													{props.values?.nama_penyetor ?? "-"}
 												</td>
 											</tr>
 										</tbody>
@@ -338,13 +398,26 @@ export const ComponentToPrint = forwardRef((props, ref) => {
 										<tr>
 											<td style={{ width: "30%" }}>Total</td>
 											<td style={{ width: "3%" }}>:</td>
-											<td>{rupiah("" + props.values?.jumlah ?? 0, "Rp")}</td>
+											<td>
+												{rupiah(
+													"" +
+														JSON.parse(
+															props?.values?.retribusi ?? "[]"
+														)?.reduce((accumulator, object) => {
+															return (
+																parseFloat(accumulator) +
+																parseFloat(object.jumlah)
+															);
+														}, 0) ?? 0,
+													"Rp"
+												)}
+											</td>
 										</tr>
-										<tr>
+										{/* <tr>
 											<td>NO.SETOR</td>
 											<td>:</td>
 											<td></td>
-										</tr>
+										</tr> */}
 										<tr>
 											<td>TGL.SETOR</td>
 											<td>:</td>
