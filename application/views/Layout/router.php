@@ -36,6 +36,11 @@
                     <li class="<?= $this->uri->segment(1) == "Zona" && $this->uri->segment(2) == "index" ? "active" : "" ?>"><a href="<?= base_url('Zona/index') ?>"><i class="ion ion-ios-circle-outline"></i>WILAYAH</a></li>
                 </ul>
             </li>
+
+            <li class="<?= $this->uri->segment(1) == "Retribusi" && $this->uri->segment(2) == "index" ? "active" : "" ?>"><a href="<?= base_url('Retribusi/index') ?>"><i class="ion ion-ios-circle-outline"></i>LAPORAN RETRIBUSI</a></li>
+
+            <li class="<?= $this->uri->segment(1) == "RetribusiNpwrd" && $this->uri->segment(2) == "index" ? "active" : "" ?>"><a href="<?= base_url('RetribusiNpwrd/index') ?>"><i class="ion ion-ios-circle-outline"></i>NPWRD</a></li>
+
             <li class="active">
                 <a href="#" class="has-dropdown"><i class="ion ion-ios-albums-outline"></i><span><strong>RETRIBUSI</strong></span></a>
                 <ul class="menu-dropdown">
