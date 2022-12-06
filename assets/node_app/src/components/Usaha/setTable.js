@@ -58,18 +58,6 @@ export const Build = (data, response, action) => {
 					alt=""
 				/>
 			),
-<<<<<<< HEAD
-			kode: item.kode,
-			hidden: item.qrCode,
-			jurupungut: item.user.nama,
-			nama_pemilik: item.nama_pemilik,
-			nama_usaha: item.nama_usaha,
-			jenis_usaha: item.jenis_usaha,
-			zona: item.zona.nama_zona,
-			alamat: item.alamat,
-			tipe_usaha: item.tipe_usaha.tipe_usaha,
-			Jumlah_Retribusi: rupiah(item.tipe_usaha.jumlah_retribusi, "Rp"),
-=======
 			kode: item?.kode ?? "",
 			hidden: item?.qrCode ?? "",
 			jurupungut: item?.user?.nama ?? "",
@@ -80,7 +68,6 @@ export const Build = (data, response, action) => {
 			alamat: item?.alamat ?? "",
 			tipe_usaha: item?.tipe_usaha?.tipe_usaha ?? "",
 			Jumlah_Retribusi: rupiah(item?.tipe_usaha?.jumlah_retribusi ?? "0", "Rp"),
->>>>>>> 16a231e0daff4b625995823b9f2c628a4f951a55
 			action: (
 				<div
 					className="d-flex"

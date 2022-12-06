@@ -216,11 +216,7 @@ export default function Components() {
 								<option value="">Pilih Tipe Usaha</option>
 								{tipe.map((res) => {
 									return (
-<<<<<<< HEAD
-										<option value={res.id_tipe_usaha}>{res.tipe_usaha}</option>
-=======
 										<option value={res.id_tipe_usaha}>{res.kode_tipe}</option>
->>>>>>> 16a231e0daff4b625995823b9f2c628a4f951a55
 									);
 								})}
 							</select>
