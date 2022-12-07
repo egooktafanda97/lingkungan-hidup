@@ -16,7 +16,8 @@ class PengutipanController extends Controller
         $this->middleware('auth:api', ['except' => [
             'created',
             'getData',
-            "getDataRetribusi"
+            "getDataRetribusi",
+            "getRetribusiByKeyUsaha"
         ]]);
     }
     // created zona
@@ -125,10 +126,24 @@ class PengutipanController extends Controller
     }
     public function getRetribusiByIdUsaha($id_usaha, $tahun = null)
     {
+
         $thn  = !empty($tahun) ? $tahun : date("Y");
         $data = Pengutipan::getRetribusiByIdUsaha($id_usaha, $thn);
         return response()->json($data);
     }
+
+    public function getRetribusiByKeyUsaha(Request $request, $tahun = null)
+    {
+        $thn  = !empty($tahun) ? $tahun : date("Y");
+        if (!empty($request->key)) {
+            $us = Usaha::where("qrCode", $request->key)->first();
+            $data = Pengutipan::getRetribusiByIdUsaha($us->id_usaha, $thn);
+            return response()->json($data);
+        } else {
+            return response()->json([], 401);
+        }
+    }
+
     public function getLineChartCount($tahun = null)
     {
         $th = date("Y");

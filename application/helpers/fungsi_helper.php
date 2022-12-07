@@ -2,7 +2,7 @@
 // membuat format rupiah
 function rupiah($rupiah = null)
 {
-	$rp = "Rp. " . number_format($rupiah, 2, ",", ".");
+	$rp = "Rp. " . number_format($rupiah, 0, ",", ".");
 	return $rp;
 }
 

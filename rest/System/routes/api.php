@@ -105,6 +105,7 @@ Route::group([
     Route::get('/getInfoRetriTable/{id}/{tahun?}', [\App\Http\Controllers\PengutipanController::class, 'getInfoRetriTable']);
     Route::get('/getLaporanTahunan/{tahun}', [\App\Http\Controllers\PengutipanController::class, 'getLaporanTahunan']);
     Route::get('/getRetribusiByIdUsaha/{id_usaha}/{tahun?}', [\App\Http\Controllers\PengutipanController::class, 'getRetribusiByIdUsaha']);
+    Route::get('/getRetribusiByKeyUsaha/{tahun?}', [\App\Http\Controllers\PengutipanController::class, 'getRetribusiByKeyUsaha']);
 });
 // ----------------------------------------------------------------------------------------
 
