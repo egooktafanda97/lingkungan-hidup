@@ -49,6 +49,9 @@
                             <a href="<?= base_url('User/index') ?>" class="dropdown-item has-icon">
                                 <i class="ion ion-android-person"></i> Management User
                             </a>
+                            <a target="_blank" href="<?= base_url('assets/android/aplikasi-jurupungut-v1.0.apk') ?>" class="dropdown-item has-icon">
+                                <i class="fa fa-android"></i> Aplikasi Jurupungut
+                            </a>
                             <a style="cursor: pointer;" class="dropdown-item has-icon logout">
                                 <i class="ion ion-log-out"></i> Logout
                             </a>
